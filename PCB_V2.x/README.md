@@ -25,6 +25,6 @@ Thank you for your understanding!
 You can upload this [gerber file] (./Gerber_Honig Waegezelle_2_2020-05-03.zip) to [this manufactory service](https://jlcpcb.com/quote) to get few PCBs. 10 pieces of this board cost about 7 € with delivery. 
 
 ### Pictures
-![Bord render picture](./Pictures/HoneyPI_Platine 2.0_1.jpg)
+![Bord render picture](/Pictures/HoneyPI_Platine 2.0_1.jpg)
 
 

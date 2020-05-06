@@ -10,7 +10,7 @@ Shielded cable to the load cell and aluminium housing are designed for this purp
 
 Feature list and bill of material is still on working. 
 
-## V2.0 BETA [link](./HoneyPI_Platine 2.0 Sensor Platine.pdf)
+## V2.0 BETA [link](./HoneyPI%20Platine%202.0%20Sensor%20Platine.pdf)
 Check out this [blogpost](https://www.honey-pi.de/)
 
 Status: Under development.
@@ -21,7 +21,6 @@ Thank you for your understanding!
 You can upload this [gerber file] (./Gerber%20Honig%20Sensor%20Board_2_2020-05-03.zip) to [this manufactory service](https://jlcpcb.com/quote) to get few PCBs. 10 pieces of this board cost about 7 € with delivery. 
 
 ### Pictures
-![Circuit diagram](./Pictures/HoneyPI%20Platine%202.0%20Sensor%20Platine.pdf)
 ![Bord render picture](./Pictures/Honig%20Sensor%20Board_HX711_DS18b20.jpg)
 
 

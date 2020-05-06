@@ -10,7 +10,7 @@ Shielded cable to the load cell and aluminium housing are designed for this purp
 
 Feature list and bill of material is still on working. 
 
-## V2.0 BETA [link](./HoneyPI%20Platine%202.0%20Sensor%20Platine.pdf)
+## V2.0 BETA circuit diagram [link](./HoneyPI_Platine%202.0%20Sensor%20Platine.pdf)
 Check out this [blogpost](https://www.honey-pi.de/)
 
 Status: Under development.

@@ -14,7 +14,7 @@ Designed for the Raspian Zero and not for Raspian Pi 1 to 4
 
 Feature list and bill of material is still on working. 
 
-## V2.0 BETA [link](./Schaltplan 3-5-2020.pdf)
+## V2.0 BETA circuit diagram [link](./Schaltplan%203-5-2020.pdf)
 Check out this [blogpost](https://www.honey-pi.de/....) for the Raspberry Zero.
 
 Status: Under development.

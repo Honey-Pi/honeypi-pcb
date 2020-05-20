@@ -22,7 +22,7 @@ This version is currently being procured and tested.
 Please do not order these without having contacted us before.
 Thank you for your understanding!
 
-You can upload this [gerber file] (./Gerber_Honig%20Waegezelle_2_2020-05-03.zip) to [this manufactory service](https://jlcpcb.com/quote) to get few PCBs. 10 pieces of this board cost about 7 € with delivery. 
+You can upload this [gerber file](./Gerber_Honig%20Waegezelle_2_2020-05-03.zip) to [this manufactory service](https://jlcpcb.com/quote) to get few PCBs. 10 pieces of this board cost about 7 € with delivery. 
 
 ### Pictures
 ![Board render picture](./Pictures/HoneyPI_Platine%202.0_1.jpg)

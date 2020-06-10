@@ -16582,6 +16582,182 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="maxim" urn="urn:adsk.eagle:library:269">
+<description>&lt;b&gt;Maxim Components&lt;/b&gt;&lt;p&gt;
+
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="TO92-" urn="urn:adsk.eagle:footprint:17395/1" library_version="4">
+<description>&lt;b&gt;TO-92&lt;/b&gt;</description>
+<wire x1="-2.095" y1="-1.651" x2="2.095" y2="-1.651" width="0.1524" layer="21"/>
+<wire x1="-2.413" y1="1.1359" x2="2.413" y2="1.1359" width="0.1524" layer="21" curve="-129.583345"/>
+<wire x1="1.136" y1="-0.127" x2="-1.136" y2="-0.127" width="0.1524" layer="51"/>
+<wire x1="-2.413" y1="1.1359" x2="-2.664" y2="-0.127" width="0.1524" layer="51" curve="27.937554"/>
+<wire x1="-2.664" y1="-0.127" x2="-2.413" y2="-1.1359" width="0.1524" layer="51" curve="22.478763"/>
+<wire x1="-1.404" y1="-0.127" x2="-2.664" y2="-0.127" width="0.1524" layer="51"/>
+<wire x1="-2.4135" y1="-1.1359" x2="-2.095" y2="-1.651" width="0.1524" layer="21" curve="13.038528"/>
+<wire x1="-1.136" y1="-0.127" x2="-1.404" y2="-0.127" width="0.1524" layer="21"/>
+<wire x1="2.413" y1="-1.1359" x2="2.664" y2="-0.127" width="0.1524" layer="51" curve="22.478763"/>
+<wire x1="2.664" y1="-0.127" x2="2.413" y2="1.1359" width="0.1524" layer="51" curve="27.937554"/>
+<wire x1="2.664" y1="-0.127" x2="1.404" y2="-0.127" width="0.1524" layer="51"/>
+<wire x1="1.404" y1="-0.127" x2="1.136" y2="-0.127" width="0.1524" layer="21"/>
+<wire x1="2.095" y1="-1.651" x2="2.4247" y2="-1.1118" width="0.1524" layer="21" curve="13.609443"/>
+<pad name="3" x="2.54" y="0" drill="0.8128" shape="octagon"/>
+<pad name="1" x="-2.54" y="0" drill="0.8128" shape="octagon"/>
+<pad name="2" x="0" y="0" drill="0.8128" shape="octagon"/>
+<text x="-2.54" y="3.048" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-3.302" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="SOT223" urn="urn:adsk.eagle:footprint:17396/1" library_version="4">
+<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;&lt;p&gt;
+DALLAS Semiconductor (DS2405.pdf)&lt;/b&gt;</description>
+<wire x1="3.277" y1="1.778" x2="3.277" y2="-1.778" width="0.2032" layer="21"/>
+<wire x1="3.277" y1="-1.778" x2="-3.277" y2="-1.778" width="0.2032" layer="21"/>
+<wire x1="-3.277" y1="-1.778" x2="-3.277" y2="1.778" width="0.2032" layer="21"/>
+<wire x1="-3.277" y1="1.778" x2="3.277" y2="1.778" width="0.2032" layer="21"/>
+<smd name="2" x="-2.311" y="-3.099" dx="1.219" dy="2.235" layer="1"/>
+<smd name="4" x="0" y="-3.099" dx="1.219" dy="2.235" layer="1"/>
+<smd name="3" x="2.311" y="-3.099" dx="1.219" dy="2.235" layer="1"/>
+<smd name="1" x="0" y="3.099" dx="3.6" dy="2.2" layer="1"/>
+<text x="-2.54" y="0.0508" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-1.3208" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
+<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
+<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
+<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
+<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
+<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
+<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
+<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
+</package>
+<package name="TSOC6" urn="urn:adsk.eagle:footprint:17393/1" library_version="4">
+<description>&lt;b&gt;TSOC 6&lt;/b&gt;</description>
+<wire x1="-1.8542" y1="1.8034" x2="1.8542" y2="1.8034" width="0.254" layer="21"/>
+<wire x1="1.8542" y1="1.8034" x2="1.8542" y2="-1.8034" width="0.254" layer="21"/>
+<wire x1="1.8542" y1="-1.8034" x2="-1.8542" y2="-1.8034" width="0.254" layer="21"/>
+<wire x1="-1.8542" y1="-1.8034" x2="-1.8542" y2="1.8034" width="0.254" layer="21"/>
+<circle x="-1.143" y="-1.016" radius="0.254" width="0.1524" layer="27"/>
+<smd name="1" x="-1.27" y="-1.6002" dx="0.4064" dy="1.2192" layer="1"/>
+<smd name="2" x="0" y="-1.6002" dx="0.4064" dy="1.2192" layer="1"/>
+<smd name="3" x="1.27" y="-1.6002" dx="0.4064" dy="1.2192" layer="1"/>
+<smd name="4" x="1.27" y="1.6002" dx="0.4064" dy="1.2192" layer="1"/>
+<smd name="5" x="0" y="1.6002" dx="0.4064" dy="1.2192" layer="1"/>
+<smd name="6" x="-1.27" y="1.6002" dx="0.4064" dy="1.2192" layer="1"/>
+<text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.3716" y1="-2.0828" x2="-1.1684" y2="-1.0668" layer="51"/>
+<rectangle x1="-0.1016" y1="-2.0828" x2="0.1016" y2="-1.0668" layer="51"/>
+<rectangle x1="1.1684" y1="-2.0828" x2="1.3716" y2="-1.0668" layer="51"/>
+<rectangle x1="1.1684" y1="1.0668" x2="1.3716" y2="2.0828" layer="51"/>
+<rectangle x1="-0.1016" y1="1.0668" x2="0.1016" y2="2.0828" layer="51"/>
+<rectangle x1="-1.3716" y1="1.0668" x2="-1.1684" y2="2.0828" layer="51"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="TO92-" urn="urn:adsk.eagle:package:17530/1" type="box" library_version="4">
+<description>TO-92</description>
+<packageinstances>
+<packageinstance name="TO92-"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT223" urn="urn:adsk.eagle:package:17531/1" type="box" library_version="4">
+<description>Small Outline Transistor
+DALLAS Semiconductor (DS2405.pdf)</description>
+<packageinstances>
+<packageinstance name="SOT223"/>
+</packageinstances>
+</package3d>
+<package3d name="TSOC6" urn="urn:adsk.eagle:package:17529/1" type="box" library_version="4">
+<description>TSOC 6</description>
+<packageinstances>
+<packageinstance name="TSOC6"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="DS2405" urn="urn:adsk.eagle:symbol:17394/1" library_version="4">
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<text x="0" y="2.54" size="1.524" layer="95">PIO</text>
+<text x="0" y="-4.064" size="1.524" layer="95">GND</text>
+<text x="-7.62" y="6.096" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-7.874" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="DATA" x="-7.62" y="0" length="short" direction="in"/>
+<pin name="GND" x="2.54" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="PIO" x="2.54" y="7.62" visible="pad" length="short" direction="pas" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DS2405" urn="urn:adsk.eagle:component:17969/2" prefix="IC" library_version="4">
+<description>&lt;b&gt;Addressable Switch&lt;/b&gt;&lt;p&gt;
+DALLAS Semiconductor</description>
+<gates>
+<gate name="G$1" symbol="DS2405" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO92-">
+<connects>
+<connect gate="G$1" pin="DATA" pad="2"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="PIO" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:17530/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="DALLAS SEMICONDUCTOR" constant="no"/>
+<attribute name="MPN" value="DS2405" constant="no"/>
+<attribute name="OC_FARNELL" value="1188025" constant="no"/>
+<attribute name="OC_NEWARK" value="06F4645" constant="no"/>
+<attribute name="POPULARITY" value="2" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="Z" package="SOT223">
+<connects>
+<connect gate="G$1" pin="DATA" pad="2"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="PIO" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:17531/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="1290862" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="P" package="TSOC6">
+<connects>
+<connect gate="G$1" pin="DATA" pad="2"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="PIO" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:17529/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -16627,11 +16803,12 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="100Ohm"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="100Ohm"/>
 <part name="C_ON/OFF" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="DS18B20" library="maxim" library_urn="urn:adsk.eagle:library:269" deviceset="DS2405" device="" package3d_urn="urn:adsk.eagle:package:17530/1"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="-129.54" y="45.72" size="1.778" layer="91">3v3/GPIO9/HX711_V</text>
+<text x="-139.7" y="45.72" size="1.778" layer="91">3v3/GPIO9/HX711_V</text>
 <text x="-135.89" y="-41.402" size="1.778" layer="91" grouprefs="PFLAUME">VCC 3,3V
 DT
 SCK
@@ -16640,8 +16817,8 @@ GND</text>
 DT
 SCK
 VCC 3,3V</text>
-<text x="-129.54" y="43.18" size="1.778" layer="91">GND</text>
-<text x="-129.54" y="48.26" size="1.778" layer="91">to GPIO11</text>
+<text x="-139.7" y="43.18" size="1.778" layer="91">GND</text>
+<text x="-139.7" y="48.26" size="1.778" layer="91">to GPIO11</text>
 <text x="-29.21" y="53.34" size="1.778" layer="91">Erweiterungsboard f. HoneyPI HAT 2.0
 Passend für das Gehäuse Rose Nr: 01.06 10 03 
 
@@ -16681,15 +16858,15 @@ https://www.honey-pi.de/</text>
 </plain>
 <instances>
 <instance part="DS18B20-3" gate="A" x="-55.88" y="45.72" smashed="yes">
-<attribute name="NAME" x="-64.77" y="51.435" size="1.778" layer="95"/>
+<attribute name="NAME" x="-64.77" y="36.195" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-62.23" y="38.1" size="1.778" layer="96"/>
 </instance>
 <instance part="DS18B20-2" gate="A" x="-73.66" y="45.72" smashed="yes">
-<attribute name="NAME" x="-80.01" y="51.435" size="1.778" layer="95"/>
+<attribute name="NAME" x="-82.55" y="36.195" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-80.01" y="38.1" size="1.778" layer="96"/>
 </instance>
 <instance part="DS18B20-1" gate="A" x="-88.9" y="45.72" smashed="yes">
-<attribute name="NAME" x="-95.25" y="51.435" size="1.778" layer="95"/>
+<attribute name="NAME" x="-97.79" y="36.195" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-95.25" y="38.1" size="1.778" layer="96"/>
 </instance>
 <instance part="DS1" gate="G$1" x="-91.44" y="60.96" smashed="yes">
@@ -16777,6 +16954,10 @@ https://www.honey-pi.de/</text>
 <attribute name="NAME" x="-121.158" y="-41.783" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-107.95" y="-40.64" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="DS18B20" gate="G$1" x="-114.3" y="60.96" smashed="yes">
+<attribute name="NAME" x="-127" y="67.056" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-121.92" y="53.086" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -16840,14 +17021,19 @@ https://www.honey-pi.de/</text>
 <wire x1="-64.77" y1="59.69" x2="-68.58" y2="59.69" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="59.69" x2="-68.58" y2="45.72" width="0.1524" layer="91"/>
 <junction x="-68.58" y="45.72"/>
-<wire x1="-99.06" y1="45.72" x2="-157.48" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="-99.06" y1="45.72" x2="-106.68" y2="45.72" width="0.1524" layer="91"/>
 <junction x="-99.06" y="45.72"/>
 <pinref part="HX711_V" gate="G$1" pin="2"/>
+<wire x1="-106.68" y1="45.72" x2="-157.48" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="-157.48" y1="53.34" x2="-157.48" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="-147.32" y1="53.34" x2="-157.48" y2="53.34" width="0.1524" layer="91"/>
 <junction x="-157.48" y="53.34"/>
 <wire x1="-157.48" y1="53.34" x2="-157.48" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="X1" gate="G$1" pin="B-6"/>
+<pinref part="DS18B20" gate="G$1" pin="PIO"/>
+<wire x1="-111.76" y1="68.58" x2="-106.68" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="68.58" x2="-106.68" y2="45.72" width="0.1524" layer="91"/>
+<junction x="-106.68" y="45.72"/>
 </segment>
 </net>
 <net name="HX711-SCK" class="0">
@@ -16888,7 +17074,8 @@ https://www.honey-pi.de/</text>
 <wire x1="-95.25" y1="57.15" x2="-96.52" y2="57.15" width="0.1524" layer="91"/>
 <wire x1="-96.52" y1="57.15" x2="-96.52" y2="43.18" width="0.1524" layer="91"/>
 <junction x="-96.52" y="43.18"/>
-<wire x1="-162.56" y1="43.18" x2="-96.52" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="-162.56" y1="43.18" x2="-111.76" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="-111.76" y1="43.18" x2="-96.52" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="-162.56" y1="12.7" x2="-162.56" y2="43.18" width="0.1524" layer="91"/>
 <label x="-162.56" y="12.7" size="1.778" layer="95" rot="R90"/>
 <junction x="-162.56" y="43.18"/>
@@ -16929,6 +17116,9 @@ https://www.honey-pi.de/</text>
 <wire x1="-48.26" y1="30.48" x2="-48.26" y2="5.08" width="0.1524" layer="91"/>
 <junction x="-48.26" y="5.08"/>
 <pinref part="X1" gate="G$1" pin="B-4"/>
+<pinref part="DS18B20" gate="G$1" pin="GND"/>
+<wire x1="-111.76" y1="53.34" x2="-111.76" y2="43.18" width="0.1524" layer="91"/>
+<junction x="-111.76" y="43.18"/>
 </segment>
 </net>
 <net name="DS18B20_DATA_GPIO11_PIN23" class="0">
@@ -16944,7 +17134,8 @@ https://www.honey-pi.de/</text>
 <wire x1="-86.36" y1="48.26" x2="-76.2" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="-91.44" y1="48.26" x2="-101.6" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="DS3" gate="G$1" pin="1"/>
-<wire x1="-101.6" y1="48.26" x2="-160.02" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="-101.6" y1="48.26" x2="-121.92" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="-121.92" y1="48.26" x2="-160.02" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="-64.77" y1="64.77" x2="-71.12" y2="64.77" width="0.1524" layer="91"/>
 <wire x1="-71.12" y1="64.77" x2="-71.12" y2="48.26" width="0.1524" layer="91"/>
 <junction x="-71.12" y="48.26"/>
@@ -16958,6 +17149,9 @@ https://www.honey-pi.de/</text>
 <junction x="-101.6" y="48.26"/>
 <wire x1="-160.02" y1="48.26" x2="-160.02" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="X1" gate="G$1" pin="B-5"/>
+<pinref part="DS18B20" gate="G$1" pin="DATA"/>
+<wire x1="-121.92" y1="60.96" x2="-121.92" y2="48.26" width="0.1524" layer="91"/>
+<junction x="-121.92" y="48.26"/>
 </segment>
 </net>
 <net name="E-" class="0">

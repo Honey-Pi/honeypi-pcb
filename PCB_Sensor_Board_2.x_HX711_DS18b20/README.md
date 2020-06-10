@@ -18,9 +18,9 @@ This version is currently being procured and tested.
 Please do not order these without having contacted us before.
 Thank you for your understanding!
 
-You can upload this [gerber file](./Gerber%20Honig%20Sensor%20Board_2_2020-05-03.zip) to [this manufactory service](https://jlcpcb.com/quote) to get few PCBs. 10 pieces of this board cost about 7 € with delivery. 
+You can upload this [gerber file](./Sensor_Board_2.01_HX711_DS18b2_2020-06-10.zip) to [this manufactory service](https://jlcpcb.com/quote) to get few PCBs. 10 pieces of this board cost about 7 € with delivery. 
 
 ### Pictures
-![Bord render picture](./Pictures/Honig%20Sensor%20Board_HX711_DS18b20.jpg)
+![Board render picture](./Pictures/Sensor_Board_2.01_HX711_DS18b2.png)
 
 

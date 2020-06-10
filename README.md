@@ -6,5 +6,5 @@ To avoid the use of jumper cables and flying resistors :-).
 ## HoneyPi-PCB V0.1 [link](./PCB_V0.1)  
 
 ## HoneyPi-PCB V2.x [link](./PCB_V2.x)  
-## Sensor extension board for HoneyPi-PCB V2.x [link](./PCB_Sensor_Board_2.x_HX711_DS18b20)  
-## Sensor extension board for HoneyPi-PCB V2.x [link](./PCB_Sensor_Board_2.x_BME280_680)  
+## Sensor extension board HX711 & DS18b20 for HoneyPi-PCB V2.x [link](./PCB_Sensor_Board_2.x_HX711_DS18b20)  
+## Sensor extension board BME280/680 for HoneyPi-PCB V2.x [link](./PCB_Sensor_Board_2.x_BME280_680)  

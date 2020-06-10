@@ -17122,26 +17122,26 @@ https://www.honey-pi.de/</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="113,1,-55.6427,44.6761,DS18B20-3,,,,,"/>
-<approved hash="113,1,-70.8827,44.6761,DS18B20-2,,,,,"/>
-<approved hash="113,1,-86.1227,44.6761,DS18B20-1,,,,,"/>
-<approved hash="113,1,-90.9955,59.0296,DS1,,,,,"/>
-<approved hash="113,1,-75.7555,59.0296,DS2,,,,,"/>
-<approved hash="113,1,-60.5155,59.0296,DS3,,,,,"/>
-<approved hash="113,1,-136.222,7.84606,HX_IN_GRN,,,,,"/>
-<approved hash="113,1,-136.717,-37.8739,HX_IN_PFL,,,,,"/>
-<approved hash="113,1,-85.0111,4.82177,HX_WÄGEZELLE_GRN,,,,,"/>
-<approved hash="113,1,-115.839,23.0861,E-_GND,,,,,"/>
-<approved hash="113,1,-94.6504,-36.6039,HX_WÄGEZELLE_PFL,,,,,"/>
-<approved hash="113,1,-113.009,-40.4139,CHANNEL_B,,,,,"/>
-<approved hash="113,1,-164.056,-42.9429,GND,,,,,"/>
+<approved hash="113,1,-58.1827,47.2161,DS18B20-3,,,,,"/>
+<approved hash="113,1,-73.4227,47.2161,DS18B20-2,,,,,"/>
+<approved hash="113,1,-88.6627,47.2161,DS18B20-1,,,,,"/>
+<approved hash="113,1,-93.5355,61.5696,DS1,,,,,"/>
+<approved hash="113,1,-78.2955,61.5696,DS2,,,,,"/>
+<approved hash="113,1,-63.0555,61.5696,DS3,,,,,"/>
+<approved hash="113,1,-138.762,10.3861,HX_IN_GRN,,,,,"/>
+<approved hash="113,1,-139.257,-35.3339,HX_IN_PFL,,,,,"/>
+<approved hash="113,1,-87.5511,7.36177,HX_WÄGEZELLE_GRN,,,,,"/>
+<approved hash="113,1,-118.379,25.6261,E-_GND,,,,,"/>
+<approved hash="113,1,-97.1904,-34.0639,HX_WÄGEZELLE_PFL,,,,,"/>
+<approved hash="113,1,-151.109,-50.5739,CHANNEL_B,,,,,"/>
+<approved hash="113,1,-166.596,-40.4029,GND,,,,,"/>
 <approved hash="113,1,-2.7686,-45.9486,FRAME1,,,,,"/>
-<approved hash="113,1,-143.23,53.5661,HX711_V,,,,,"/>
-<approved hash="113,1,-90.1316,-12.4739,E+_HX711_V,,,,,"/>
-<approved hash="113,1,35.5379,24.4704,X2,,,,,"/>
-<approved hash="113,1,35.5379,-11.0896,X3,,,,,"/>
-<approved hash="113,1,-162.9,60.9379,X1,,,,,"/>
-<approved hash="113,1,-78.2461,-49.5512,B_ON/OFF,,,,,"/>
+<approved hash="113,1,-145.77,56.1061,HX711_V,,,,,"/>
+<approved hash="113,1,-92.6716,-9.93394,E+_HX711_V,,,,,"/>
+<approved hash="113,1,32.9979,27.0104,X2,,,,,"/>
+<approved hash="113,1,32.9979,-8.54964,X3,,,,,"/>
+<approved hash="113,1,-165.44,63.4779,X1,,,,,"/>
+<approved hash="113,1,-114.596,-45.1129,C_ON/OFF,,,,,"/>
 </errors>
 </schematic>
 </drawing>

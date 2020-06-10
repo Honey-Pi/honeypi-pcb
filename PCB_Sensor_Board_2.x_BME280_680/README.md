@@ -1,4 +1,4 @@
-# HoneyPI-PCB_Sensor_Board_2.x_BME280_680
+# HoneyPI-PCB Sensor Board 2.x BME280/BME680
 
 Extension board for the HoneyPi-PCB 2.x.  
 Pitch lenght 2.0 mm for Grove plugs or similar.  

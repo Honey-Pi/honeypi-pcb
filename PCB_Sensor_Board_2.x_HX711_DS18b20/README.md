@@ -6,7 +6,7 @@ Pitch lenght 2.54 mm for (e.g.) terminal blocks as an alternative.
 Designed to be mounted close to the load cell. To ensure that the analogue voltage signal is subject to the least interference.
 Shielded cable to the load cell and aluminium housing are designed for this purpose. 
 1x HX711 (two different types)
-3x DS18b20
+3x DS18b20 (cable/external) + 1x DS18b20 TO-92 (board)
 
 Feature list and bill of material is still on working. 
 

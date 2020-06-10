@@ -3,12 +3,13 @@
 Printed circuit board (PCB) for the Raspberry Pi ZERO to connect various sensors.  
 Pitch lenght 2.x mm for Grove plugs or similar  
 Pitch lenght 2.54 mm for terminal blocks as an alternative  
-3 possible power supply  
+Three differend possible power supplies possible  
 5x HX711...  
-9x DS18b20  
-1x BME680  
+8x DS18b20 + 1x DS18b20 (TO-92 onboard)  
+1x BME680 / BME280 
 1x I²C interface   
 1x PCF8591 
+incl. WittyPi interface
 
 Designed for the Raspian Zero and not for Raspian Pi 1 to 4  
 
@@ -22,9 +23,9 @@ This version is currently being procured and tested.
 Please do not order these without having contacted us before.  
 Thank you for your understanding!  
 
-You can upload this [gerber file](./Gerber_Honig%20Waegezelle_2_2020-05-03.zip) to [this manufactory service](https://jlcpcb.com/quote) to get few PCBs. 10 pieces of this board cost about 7 € with delivery. 
+SORRY NOT YET: You can upload this [gerber file](./Gerber_Honig%20Waegezelle_2_2020-05-03.zip) to [this manufactory service](https://jlcpcb.com/quote) to get few PCBs. 10 pieces of this board cost about 7 € with delivery. 
 
 ### Pictures
-![Board render picture](./Pictures/HoneyPI_Platine%202.0_1.jpg)
+![Board render picture](./Pictures/HoneyPI_Platine%202.01.png)
 
 

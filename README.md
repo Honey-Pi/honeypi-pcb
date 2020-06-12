@@ -1,7 +1,6 @@
 # HoneyPi-PCB Overview
 
-Printed circuit boards (PCB) for the Raspberry Pi to connect various sensors.   
-To avoid the use of jumper cables and flying resistors :-).
+Printed circuit boards (PCB) for the Raspberry Pi to connect various sensors to avoid the use of jumper cables and flying resistors :-).
 
 ## HoneyPi-PCB V0.1 [link](./PCB_V0.1)  
 

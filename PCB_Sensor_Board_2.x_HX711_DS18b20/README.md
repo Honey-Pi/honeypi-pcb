@@ -2,7 +2,9 @@
 
 Extension board for the HoneyPi-PCB 2.x.   
 Pitch lenght 2.0 mm for Grove plugs or similar.  
-Pitch lenght 2.54 mm for (e.g.) terminal blocks as an alternative.  
+Pitch lenght 2.54 mm for (e.g.) terminal blocks as an alternative. 
+New: Wago cage clamp block support
+
 Designed to be mounted close to the load cell. To ensure that the analogue voltage signal is subject to the least interference.  
 Shielded cable to the load cell and aluminium housing are designed for this purpose.  
 1x HX711 (two different types)  
@@ -10,7 +12,7 @@ Shielded cable to the load cell and aluminium housing are designed for this purp
 
 Feature list and bill of material is still on working. 
 
-## V2.0 BETA circuit diagram [link](./HoneyPI_Platine%202.01%20Sensor%20Plan.pdf)  
+## V2.0 BETA circuit diagram [link](./HoneyPI_Platine_2.01_Sensor_Plan.pdf)  
 Check out this [blogpost](https://www.honey-pi.de/)  
 
 Status: Under development.  

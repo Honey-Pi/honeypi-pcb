@@ -15,7 +15,7 @@ Designed for the Raspian Zero and not for Raspian Pi 1 to 4
 
 Feature list and bill of material is still on working.  
 
-## V2.0x BETA circuit diagram [link](./Schaltplan-21-6-2020.pdf)
+## V2.0x BETA circuit diagram [link](./Schaltplan-28-6-2020.pdf)
 Check out this [blogpost](https://www.honey-pi.de/....) for the Raspberry Zero.
 
 Status: Under development.  
@@ -23,7 +23,7 @@ This version is currently being procured and tested.
 Please do not order these without having contacted us before.  
 Thank you for your understanding!  
 
-You can upload this [gerber file](./HoneyPI_Platine_2.01_2020-06-21.zip) to [this manufactory service](https://jlcpcb.com/quote) to get few PCBs. 10 pieces of this board cost about 7 € with delivery. 
+NOT YET: You can upload this [gerber file](./*.zip) to [this manufactory service](https://jlcpcb.com/quote) to get few PCBs. 10 pieces of this board cost about 7 € with delivery. 
 
 ### Pictures
 ![Board render picture](./Pictures/HoneyPI_Platine_2.01.png)

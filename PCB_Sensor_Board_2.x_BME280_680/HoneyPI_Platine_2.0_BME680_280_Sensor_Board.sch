@@ -603,9 +603,10 @@ DIN A4, landscape with extra doc field</description>
 <parts>
 <part name="BME680/280" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="JP1_ANSCHLUSS" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
-<part name="AHT10" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
+<part name="OTHER" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="J1" library="Connector" deviceset="TWIG-4P-2.0" device="-2.0"/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="DINA4_L" device=""/>
+<part name="OTHER1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -628,7 +629,7 @@ DIN A4, landscape with extra doc field</description>
 <attribute name="NAME" x="-247.65" y="120.015" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-247.65" y="104.14" size="1.778" layer="96"/>
 </instance>
-<instance part="AHT10" gate="A" x="-185.42" y="76.2" smashed="yes" grouprefs="I²C-G1">
+<instance part="OTHER" gate="A" x="-185.42" y="76.2" smashed="yes" grouprefs="I²C-G1">
 <attribute name="NAME" x="-191.77" y="84.455" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-191.77" y="68.58" size="1.778" layer="96"/>
 </instance>
@@ -642,6 +643,10 @@ DIN A4, landscape with extra doc field</description>
 <attribute name="SHEET" x="-101.6" y="11.43" size="2.54" layer="94"/>
 <attribute name="DRAWING_NAME" x="-170.18" y="29.21" size="2.54" layer="94"/>
 </instance>
+<instance part="OTHER1" gate="A" x="-185.42" y="93.98" smashed="yes">
+<attribute name="NAME" x="-191.77" y="102.235" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-191.77" y="86.36" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -652,16 +657,20 @@ DIN A4, landscape with extra doc field</description>
 <pinref part="JP1_ANSCHLUSS" gate="A" pin="3"/>
 <wire x1="-243.84" y1="111.76" x2="-231.14" y2="111.76" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <pinref part="BME680/280" gate="A" pin="3"/>
-<pinref part="AHT10" gate="A" pin="2"/>
+<pinref part="OTHER" gate="A" pin="2"/>
 <wire x1="-231.14" y1="111.76" x2="-198.12" y2="111.76" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <wire x1="-198.12" y1="111.76" x2="-187.96" y2="111.76" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <wire x1="-198.12" y1="78.74" x2="-187.96" y2="78.74" width="0.1524" layer="91" grouprefs="I²C-G1"/>
-<wire x1="-198.12" y1="78.74" x2="-198.12" y2="111.76" width="0.1524" layer="91" grouprefs="I²C-G1"/>
+<wire x1="-198.12" y1="78.74" x2="-198.12" y2="96.52" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <junction x="-198.12" y="111.76" grouprefs="I²C-G1"/>
 <pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="-198.12" y1="96.52" x2="-198.12" y2="111.76" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <wire x1="-231.14" y1="111.76" x2="-231.14" y2="100.33" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <wire x1="-231.14" y1="100.33" x2="-229.87" y2="100.33" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <junction x="-231.14" y="111.76" grouprefs="I²C-G1"/>
+<pinref part="OTHER1" gate="A" pin="2"/>
+<wire x1="-187.96" y1="96.52" x2="-198.12" y2="96.52" width="0.1524" layer="91"/>
+<junction x="-198.12" y="96.52"/>
 </segment>
 </net>
 <net name="BME_SDI/SDA" class="0">
@@ -672,14 +681,18 @@ DIN A4, landscape with extra doc field</description>
 <pinref part="BME680/280" gate="A" pin="4"/>
 <wire x1="-195.58" y1="109.22" x2="-233.68" y2="109.22" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <wire x1="-233.68" y1="109.22" x2="-243.84" y2="109.22" width="0.1524" layer="91" grouprefs="I²C-G1"/>
-<wire x1="-195.58" y1="109.22" x2="-195.58" y2="81.28" width="0.1524" layer="91" grouprefs="I²C-G1"/>
+<wire x1="-195.58" y1="109.22" x2="-195.58" y2="99.06" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <junction x="-195.58" y="109.22" grouprefs="I²C-G1"/>
-<pinref part="AHT10" gate="A" pin="1"/>
+<pinref part="OTHER" gate="A" pin="1"/>
+<wire x1="-195.58" y1="99.06" x2="-195.58" y2="81.28" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <wire x1="-195.58" y1="81.28" x2="-187.96" y2="81.28" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <pinref part="J1" gate="G$1" pin="2"/>
 <wire x1="-233.68" y1="109.22" x2="-233.68" y2="97.79" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <wire x1="-233.68" y1="97.79" x2="-229.87" y2="97.79" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <junction x="-233.68" y="109.22" grouprefs="I²C-G1"/>
+<pinref part="OTHER1" gate="A" pin="1"/>
+<wire x1="-187.96" y1="99.06" x2="-195.58" y2="99.06" width="0.1524" layer="91"/>
+<junction x="-195.58" y="99.06"/>
 </segment>
 </net>
 <net name="GND" class="1">
@@ -688,16 +701,20 @@ DIN A4, landscape with extra doc field</description>
 <pinref part="JP1_ANSCHLUSS" gate="A" pin="2"/>
 <wire x1="-187.96" y1="114.3" x2="-200.66" y2="114.3" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <pinref part="BME680/280" gate="A" pin="2"/>
-<pinref part="AHT10" gate="A" pin="3"/>
+<pinref part="OTHER" gate="A" pin="3"/>
 <wire x1="-200.66" y1="114.3" x2="-238.76" y2="114.3" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <wire x1="-238.76" y1="114.3" x2="-243.84" y2="114.3" width="0.1524" layer="91" grouprefs="I²C-G1"/>
-<wire x1="-200.66" y1="114.3" x2="-200.66" y2="76.2" width="0.1524" layer="91" grouprefs="I²C-G1"/>
+<wire x1="-200.66" y1="114.3" x2="-200.66" y2="93.98" width="0.1524" layer="91" grouprefs="I²C-G1"/>
+<wire x1="-200.66" y1="93.98" x2="-200.66" y2="76.2" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <wire x1="-200.66" y1="76.2" x2="-187.96" y2="76.2" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <junction x="-200.66" y="114.3" grouprefs="I²C-G1"/>
 <wire x1="-238.76" y1="114.3" x2="-238.76" y2="92.71" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <junction x="-238.76" y="114.3" grouprefs="I²C-G1"/>
 <pinref part="J1" gate="G$1" pin="4"/>
 <wire x1="-238.76" y1="92.71" x2="-229.87" y2="92.71" width="0.1524" layer="91" grouprefs="I²C-G1"/>
+<pinref part="OTHER1" gate="A" pin="3"/>
+<wire x1="-187.96" y1="93.98" x2="-200.66" y2="93.98" width="0.1524" layer="91"/>
+<junction x="-200.66" y="93.98"/>
 </segment>
 </net>
 <net name="3V3" class="0">
@@ -708,14 +725,18 @@ DIN A4, landscape with extra doc field</description>
 <wire x1="-243.84" y1="116.84" x2="-236.22" y2="116.84" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <wire x1="-236.22" y1="116.84" x2="-203.2" y2="116.84" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <wire x1="-203.2" y1="116.84" x2="-187.96" y2="116.84" width="0.1524" layer="91" grouprefs="I²C-G1"/>
-<wire x1="-203.2" y1="116.84" x2="-203.2" y2="73.66" width="0.1524" layer="91" grouprefs="I²C-G1"/>
+<wire x1="-203.2" y1="116.84" x2="-203.2" y2="91.44" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <junction x="-203.2" y="116.84" grouprefs="I²C-G1"/>
-<pinref part="AHT10" gate="A" pin="4"/>
+<pinref part="OTHER" gate="A" pin="4"/>
+<wire x1="-203.2" y1="91.44" x2="-203.2" y2="73.66" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <wire x1="-203.2" y1="73.66" x2="-187.96" y2="73.66" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <pinref part="J1" gate="G$1" pin="3"/>
 <wire x1="-236.22" y1="116.84" x2="-236.22" y2="95.25" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <wire x1="-236.22" y1="95.25" x2="-229.87" y2="95.25" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <junction x="-236.22" y="116.84" grouprefs="I²C-G1"/>
+<pinref part="OTHER1" gate="A" pin="4"/>
+<wire x1="-187.96" y1="91.44" x2="-203.2" y2="91.44" width="0.1524" layer="91"/>
+<junction x="-203.2" y="91.44"/>
 </segment>
 </net>
 </nets>

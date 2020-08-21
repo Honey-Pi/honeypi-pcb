@@ -111,21 +111,27 @@ SDA
 330   220
 4K7   3K1</text>
 <spline width="0.1524" layer="20" locked="no">
-<vertex x="53.34" y="7.62"/>
-<vertex x="56.30333125" y="3.386665625"/>
-<vertex x="57.361665625" y="10.58333125"/>
-<vertex x="62.23" y="6.35"/>
+<vertex x="55.88" y="5.08"/>
+<vertex x="58.84333125" y="0.846665625"/>
+<vertex x="59.901665625" y="8.04333125"/>
+<vertex x="64.77" y="3.81"/>
 </spline>
 <spline width="0.1524" layer="20" locked="no">
-<vertex x="63.5" y="6.35"/>
-<vertex x="60.53666875" y="10.583334375"/>
-<vertex x="59.478334375" y="3.38666875"/>
-<vertex x="54.61" y="7.62"/>
+<vertex x="66.04" y="3.81"/>
+<vertex x="63.07666875" y="8.043334375"/>
+<vertex x="62.018334375" y="0.84666875"/>
+<vertex x="57.15" y="5.08"/>
 </spline>
-<text x="50.8" y="10.16" size="0.8128" layer="1">Use shielded but 
-NOT for SDA SCL twisted pairs 
-cable.
-CAT5 is fine.</text>
+<text x="53.34" y="6.35" size="0.8128" layer="1">Use a shielded and twisted 
+pair cable. But do not twist 
+SDA and SCL!
+
+You can twist:
+ GND with SDA 
+and 
+ SCL with VDD
+
+CAT5 cable is fine.</text>
 <text x="5.969" y="22.606" size="0.8128" layer="1">GND
 
 SCL
@@ -148,6 +154,18 @@ BSDA
 
 NC</text>
 <rectangle x1="-1.27" y1="19.05" x2="69.85" y2="19.558" layer="1"/>
+<spline width="0.1524" layer="20" locked="no">
+<vertex x="55.88" y="2.54"/>
+<vertex x="58.84333125" y="-1.693334375"/>
+<vertex x="59.901665625" y="5.50333125"/>
+<vertex x="64.77" y="1.27"/>
+</spline>
+<spline width="0.1524" layer="20" locked="no">
+<vertex x="66.04" y="1.27"/>
+<vertex x="63.07666875" y="5.503334375"/>
+<vertex x="62.018334375" y="-1.69333125"/>
+<vertex x="57.15" y="2.54"/>
+</spline>
 </plain>
 <libraries>
 <library name="pinhead" urn="urn:adsk.eagle:library:325">
@@ -1856,12 +1874,6 @@ design rules under a new name.</description>
 <wire x1="15.1554" y1="30.5629" x2="3.8454" y2="30.5629" width="0.1524" layer="16"/>
 <wire x1="3.8454" y1="30.5629" x2="3.81" y2="30.48" width="0.1524" layer="16"/>
 <wire x1="15.1554" y1="30.5629" x2="15.24" y2="30.48" width="0.1524" layer="16"/>
-</signal>
-<signal name="N$1">
-<wire x1="57.15" y1="8.89" x2="60.96" y2="5.08" width="0.1524" layer="1"/>
-</signal>
-<signal name="N$2">
-<wire x1="59.69" y1="8.89" x2="55.88" y2="5.08" width="0.1524" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

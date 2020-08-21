@@ -8,7 +8,7 @@ Designed to be connect to a Raspberry Pi on the I²C
 
 Feature list and bill of material is still on working.   
 
-## V2.0 BETA circuit diagram [link](./I2C_Extenter.pdf)
+## V2.0 BETA circuit diagram [link](./HoneyPI_I2C_Extenter.pdf)
 Check out this [blogpost](https://www.honey-pi.de/)
 
 Status: Under development.  
@@ -19,5 +19,5 @@ Thank you for your understanding!
 NOT YET: You can upload this [gerber file](./) to [this manufactory service](https://jlcpcb.com/quote) to get few PCBs. 10 pieces of this board cost about 7 € with delivery. 
 
 ### Pictures
-![Board render picture](./Pictures/I2C_Extenter.png)
+![Board render picture](./Pictures/HoneyPI_I2C_Extenter.png)
 

@@ -4,7 +4,7 @@ Extension board for the HoneyPi-PCB 2.x.
 Pitch lenght 2.54 mm for pins or...  
 Designed to be connect to a Raspberry Pi on the I²C
 
-(-> Two modules on one boeard, so a saw is needed)
+(-> Two modules on one board, so a saw is needed)
 
 Feature list and bill of material is still on working.   
 

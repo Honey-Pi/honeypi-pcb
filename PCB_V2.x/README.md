@@ -6,12 +6,12 @@ Pitch lenght 2.54 mm for terminal blocks as an alternative
 Three differend possible power supplies possible  
 5x HX711...  
 8x DS18b20 + 1x DS18b20 (TO-92 onboard)  
-1x BME680 / BME280 
-1x I²C interface   
+2x BME680 / BME280 
+1x I²C interface (instead of second BME)
 1x PCF8591 
 incl. WittyPi interface
 
-Designed for the Raspian Zero and not for Raspian Pi 1 to 4  
+Designed for the Raspian Zero and NOT for Raspian Pi 1 to 4  
 
 Feature list and bill of material is still on working.  
 

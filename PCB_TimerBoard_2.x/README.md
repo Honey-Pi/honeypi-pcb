@@ -18,8 +18,5 @@ Thank you for your understanding!
 NOT YET: You can upload this [gerber file](./) to [this manufactory service](https://jlcpcb.com/quote) to get few PCBs. 10 pieces of this board cost about 7 € with delivery. 
 
 ### Pictures
-![Board render picture](./HoneyPI_Platine_TimerBoard_2.x.png)
-![Supported RTC Module](./DS3231.png)
-
-Based on https://github.com/CrazyRobMiles/RTC-controlled-data-logger from Rob Miles
-Thank you Rob!
+![Board render picture](./Pictures/HoneyPI_Platine_TimerBoard_2.x.png)
+![Supported RTC Module](./Pictures/DS3231.png)

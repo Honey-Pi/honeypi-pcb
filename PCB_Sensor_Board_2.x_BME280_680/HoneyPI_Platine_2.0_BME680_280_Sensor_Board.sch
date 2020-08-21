@@ -590,10 +590,10 @@ DIN A4, landscape with extra doc field</description>
 <class number="0" name="Signal" width="0.1524" drill="0">
 <clearance class="0" value="0.3048"/>
 </class>
-<class number="1" name="Supply3v3" width="0.2032" drill="0">
+<class number="1" name="Supply3v3" width="0.25" drill="0">
 <clearance class="1" value="0.3048"/>
 </class>
-<class number="2" name="Supply5v" width="0.4064" drill="0">
+<class number="2" name="Supply5v" width="0.5" drill="0">
 <clearance class="2" value="0.3048"/>
 </class>
 </classes>
@@ -607,6 +607,7 @@ DIN A4, landscape with extra doc field</description>
 <part name="J1" library="Connector" deviceset="TWIG-4P-2.0" device="-2.0"/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="DINA4_L" device=""/>
 <part name="OTHER1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
+<part name="GND" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -646,6 +647,10 @@ DIN A4, landscape with extra doc field</description>
 <instance part="OTHER1" gate="A" x="-185.42" y="93.98" smashed="yes">
 <attribute name="NAME" x="-191.77" y="102.235" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-191.77" y="86.36" size="1.778" layer="96"/>
+</instance>
+<instance part="GND" gate="A" x="-220.98" y="78.74" smashed="yes">
+<attribute name="NAME" x="-227.33" y="86.995" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-227.33" y="71.12" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -695,7 +700,7 @@ DIN A4, landscape with extra doc field</description>
 <junction x="-195.58" y="99.06"/>
 </segment>
 </net>
-<net name="GND" class="1">
+<net name="GND" class="2">
 <segment>
 <label x="-238.76" y="114.3" size="1.778" layer="95" grouprefs="I²C-G1"/>
 <pinref part="JP1_ANSCHLUSS" gate="A" pin="2"/>
@@ -715,9 +720,24 @@ DIN A4, landscape with extra doc field</description>
 <pinref part="OTHER1" gate="A" pin="3"/>
 <wire x1="-187.96" y1="93.98" x2="-200.66" y2="93.98" width="0.1524" layer="91"/>
 <junction x="-200.66" y="93.98"/>
+<wire x1="-238.76" y1="92.71" x2="-238.76" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="GND" gate="A" pin="1"/>
+<wire x1="-238.76" y1="83.82" x2="-223.52" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="GND" gate="A" pin="2"/>
+<wire x1="-238.76" y1="83.82" x2="-238.76" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="-238.76" y1="81.28" x2="-223.52" y2="81.28" width="0.1524" layer="91"/>
+<junction x="-238.76" y="83.82"/>
+<pinref part="GND" gate="A" pin="3"/>
+<wire x1="-238.76" y1="81.28" x2="-238.76" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="-238.76" y1="78.74" x2="-223.52" y2="78.74" width="0.1524" layer="91"/>
+<junction x="-238.76" y="81.28"/>
+<pinref part="GND" gate="A" pin="4"/>
+<wire x1="-238.76" y1="78.74" x2="-238.76" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="-238.76" y1="76.2" x2="-223.52" y2="76.2" width="0.1524" layer="91"/>
+<junction x="-238.76" y="78.74"/>
 </segment>
 </net>
-<net name="3V3" class="0">
+<net name="3V3" class="1">
 <segment>
 <label x="-238.76" y="116.84" size="1.778" layer="95" grouprefs="I²C-G1"/>
 <pinref part="JP1_ANSCHLUSS" gate="A" pin="1"/>

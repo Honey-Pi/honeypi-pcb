@@ -19,5 +19,5 @@ Thank you for your understanding!
 NOT YET: You can upload this [gerber file](./) to [this manufactory service](https://jlcpcb.com/quote) to get few PCBs. 10 pieces of this board cost about 7 € with delivery. 
 
 ### Pictures
-![Board render picture](./I2C_Extenter.png)
+![Board render picture](./Pictures/I2C_Extenter.png)
 

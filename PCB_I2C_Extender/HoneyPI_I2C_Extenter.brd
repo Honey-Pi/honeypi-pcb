@@ -122,8 +122,9 @@ SDA
 <vertex x="59.478334375" y="3.38666875"/>
 <vertex x="54.61" y="7.62"/>
 </spline>
-<text x="52.07" y="8.89" size="0.8128" layer="1">Use shielded twisted
-pair cable at least.
+<text x="50.8" y="10.16" size="0.8128" layer="1">Use shielded but 
+NOT for SDA SCL twisted pairs 
+cable.
 CAT5 is fine.</text>
 <text x="5.969" y="22.606" size="0.8128" layer="1">GND
 
@@ -1855,6 +1856,12 @@ design rules under a new name.</description>
 <wire x1="15.1554" y1="30.5629" x2="3.8454" y2="30.5629" width="0.1524" layer="16"/>
 <wire x1="3.8454" y1="30.5629" x2="3.81" y2="30.48" width="0.1524" layer="16"/>
 <wire x1="15.1554" y1="30.5629" x2="15.24" y2="30.48" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$1">
+<wire x1="57.15" y1="8.89" x2="60.96" y2="5.08" width="0.1524" layer="1"/>
+</signal>
+<signal name="N$2">
+<wire x1="59.69" y1="8.89" x2="55.88" y2="5.08" width="0.1524" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

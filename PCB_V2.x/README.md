@@ -25,9 +25,11 @@ Nevertheless I would like to support the first setups.
 
 Please contact me if you are interested.  
 
-You can upload this [gerber file](./HoneyPI_Platine_2.01_2020-09-27.zip) to [this manufactory service](https://jlcpcb.com/quote) to get few PCBs. 10 pieces of this board cost about 7 € with delivery. 
+You can upload this [gerber file](./HoneyPI_Platine_2.01_2020-09-27.zip) to [this manufactory service](https://jlcpcb.com/quote) to get few PCBs. 5 pieces of this board cost me about 7 € with delivery. 
 
 ### Pictures
 ![Board render picture](./Pictures/HoneyPI_Platine_2.01.png)
+
+
 
 

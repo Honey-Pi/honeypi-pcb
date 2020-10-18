@@ -2,13 +2,20 @@
 
 Printed circuit board (PCB) for the Raspberry Pi ZERO to connect various sensors.  
 Pitch lenght 2.x mm for Grove plugs or similar.  
-Pitch lenght 2.54 mm for terminal blocks as an alternative.  
+Pitch lenght 2.54 mm for terminal blocks as an alternative. 
+ 
 - Three differend possible power supplies possible.  
+
 - 5x HX711...  
+
 - 8x DS18b20 + 1x DS18b20 (TO-92 onboard)  
+
 - 2x BME680 / BME280 
+
 - 1x I²C interface (instead of second BME)
-- 1x PCF8591 
+
+- 1x PCF8591
+
 - incl. interface for the WittyPi / Timer Board
 
 Designed for the Raspian Zero and NOT for Raspian Pi 1 to 4  

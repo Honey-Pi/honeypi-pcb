@@ -1,15 +1,15 @@
-# HoneyPi-PCB 2.0 BETA
+# HoneyPi-PCB 2.0x
 
 Printed circuit board (PCB) for the Raspberry Pi ZERO to connect various sensors.  
-Pitch lenght 2.x mm for Grove plugs or similar  
-Pitch lenght 2.54 mm for terminal blocks as an alternative  
-Three differend possible power supplies possible  
-5x HX711...  
-8x DS18b20 + 1x DS18b20 (TO-92 onboard)  
-2x BME680 / BME280 
-1x I²C interface (instead of second BME)
-1x PCF8591 
-incl. WittyPi interface
+Pitch lenght 2.x mm for Grove plugs or similar.  
+Pitch lenght 2.54 mm for terminal blocks as an alternative.  
+- Three differend possible power supplies possible.  
+- 5x HX711...  
+- 8x DS18b20 + 1x DS18b20 (TO-92 onboard)  
+- 2x BME680 / BME280 
+- 1x I²C interface (instead of second BME)
+- 1x PCF8591 
+- incl. interface for the WittyPi / Timer Board
 
 Designed for the Raspian Zero and NOT for Raspian Pi 1 to 4  
 Feature list and bill of material is still on working.  
@@ -18,10 +18,10 @@ Feature list and bill of material is still on working.
 ## V2.0x circuit diagram [link](./Schaltplan-27-9-2020.pdf)
 Check out this [blogpost](https://www.honey-pi.de/....) for the Raspberry Zero.
 
-Status: Tested.  
+Status: Tested, working.  
 This version has been tested and found to be good and released. 
 
-Nevertheless I would like to support the first setups.
+Nevertheless I would like to support the first setups to enhance the instructions.
 
 Please contact me if you are interested.  
 

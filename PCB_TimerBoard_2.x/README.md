@@ -17,7 +17,7 @@ Status:
   
 This Hardware version is procured and tested.  
 
-You can upload this [gerber file](./HoneyPI_Platine TimerBoard 2.00a_2020-09-06.zip) to [this manufactory service](https://jlcpcb.com/quote) to get few PCBs. 10 pieces of this board cost about 7 € with delivery. 
+You can upload this [gerber file](./HoneyPI_Platine TimerBoard 2.00a_2020-11-16.zip) to [this manufactory service](https://jlcpcb.com/quote) to get few PCBs. 10 pieces of this board cost about 7 € with delivery. 
 
 ### Pictures
 ![Board render picture](./Pictures/HoneyPI_Platine_TimerBoard_2.x.png)

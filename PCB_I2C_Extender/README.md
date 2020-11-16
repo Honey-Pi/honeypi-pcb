@@ -16,7 +16,7 @@ This version is currently being procured and tested.
 Please do not order these without having contacted us before.  
 Thank you for your understanding!  
 
-NOT YET: You can upload this [gerber file](./) to [this manufactory service](https://jlcpcb.com/quote) to get few PCBs. 10 pieces of this board cost about 7 € with delivery. 
+NOT YET: You can upload this [gerber file](./HoneyPI_I2C_Extenter_2020-11-16.zip) to [this manufactory service](https://jlcpcb.com/quote) to get few PCBs. 10 pieces of this board cost about 7 € with delivery. 
 
 ### Pictures
 ![Board render picture](./Pictures/HoneyPI_I2C_Extenter.png)

@@ -581,6 +581,206 @@ DIN A4, landscape with extra doc field</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="con-wago" urn="urn:adsk.eagle:library:197">
+<description>&lt;b&gt;Wago Connectors&lt;/b&gt;&lt;p&gt;
+Types:&lt;p&gt;
+ 233&lt;p&gt;
+ 234&lt;p&gt;
+ 255 - 5.0; 5.08; 7.5; 7.62, 10.0; 10.16 mm&lt;p&gt;
+ 254&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="233-504" urn="urn:adsk.eagle:footprint:8079250/1" library_version="4">
+<description>&lt;b&gt;WAGO Cage Clamp&lt;/b&gt;</description>
+<wire x1="-6.06" y1="4.8" x2="-6.06" y2="4.25" width="0.2032" layer="21"/>
+<wire x1="-6.06" y1="4.25" x2="-6.41" y2="4.25" width="0.2032" layer="21"/>
+<wire x1="-6.41" y1="4.25" x2="-6.41" y2="3.25" width="0.2032" layer="21"/>
+<wire x1="-6.41" y1="3.25" x2="-6.06" y2="3.25" width="0.2032" layer="21"/>
+<wire x1="-6.06" y1="3.25" x2="-6.06" y2="-1.25" width="0.2032" layer="21"/>
+<wire x1="-6.06" y1="-1.25" x2="-6.41" y2="-1.25" width="0.2032" layer="21"/>
+<wire x1="-6.41" y1="-1.25" x2="-6.41" y2="-3.25" width="0.2032" layer="21"/>
+<wire x1="-6.41" y1="-3.25" x2="-6.06" y2="-3.25" width="0.2032" layer="21"/>
+<wire x1="-6.06" y1="-3.25" x2="-6.06" y2="-5.25" width="0.2032" layer="21"/>
+<wire x1="-6.06" y1="-5.25" x2="-6.41" y2="-5.25" width="0.2032" layer="21"/>
+<wire x1="-6.41" y1="-5.25" x2="-6.41" y2="-6.25" width="0.2032" layer="21"/>
+<wire x1="-6.41" y1="-6.25" x2="-6.06" y2="-6.25" width="0.2032" layer="21"/>
+<wire x1="-6.06" y1="-6.25" x2="-6.06" y2="-7.1" width="0.2032" layer="21"/>
+<wire x1="-6.06" y1="-7.1" x2="5.835" y2="-7.1" width="0.2032" layer="21"/>
+<wire x1="5.835" y1="-7.1" x2="5.835" y2="-6.25" width="0.2032" layer="21"/>
+<wire x1="5.835" y1="-5.25" x2="5.835" y2="-3.75" width="0.2032" layer="21"/>
+<wire x1="5.835" y1="-3.75" x2="5.835" y2="-3.25" width="0.2032" layer="21"/>
+<wire x1="5.835" y1="-1.25" x2="5.835" y2="3.25" width="0.2032" layer="21"/>
+<wire x1="5.835" y1="4.25" x2="5.835" y2="4.8" width="0.2032" layer="21"/>
+<wire x1="5.835" y1="4.8" x2="-6.06" y2="4.8" width="0.2032" layer="21"/>
+<wire x1="-4.56" y1="3.75" x2="-4.56" y2="1.25" width="0.2032" layer="51"/>
+<wire x1="-4.56" y1="1.25" x2="-4.31" y2="1.25" width="0.2032" layer="51"/>
+<wire x1="-4.31" y1="1.25" x2="-3.31" y2="1.25" width="0.2032" layer="51"/>
+<wire x1="-3.31" y1="1.25" x2="-3.06" y2="1.25" width="0.2032" layer="51"/>
+<wire x1="-3.06" y1="1.25" x2="-3.06" y2="3.75" width="0.2032" layer="51"/>
+<wire x1="-3.06" y1="3.75" x2="-4.56" y2="3.75" width="0.2032" layer="51"/>
+<wire x1="-6.06" y1="-3.75" x2="5.835" y2="-3.75" width="0.2032" layer="21"/>
+<wire x1="-4.31" y1="-4.25" x2="-4.31" y2="-5.75" width="0.2032" layer="21"/>
+<wire x1="-4.31" y1="-5.75" x2="-3.31" y2="-5.75" width="0.2032" layer="21"/>
+<wire x1="-3.31" y1="-5.75" x2="-3.31" y2="-4.25" width="0.2032" layer="21"/>
+<wire x1="-3.31" y1="-4.25" x2="-4.31" y2="-4.25" width="0.2032" layer="21"/>
+<wire x1="5.835" y1="4.25" x2="5.485" y2="4.25" width="0.2032" layer="21"/>
+<wire x1="5.485" y1="4.25" x2="5.485" y2="3.25" width="0.2032" layer="21"/>
+<wire x1="5.485" y1="3.25" x2="5.835" y2="3.25" width="0.2032" layer="21"/>
+<wire x1="5.835" y1="-1.25" x2="5.485" y2="-1.25" width="0.2032" layer="21"/>
+<wire x1="5.485" y1="-1.25" x2="5.485" y2="-3.25" width="0.2032" layer="21"/>
+<wire x1="5.485" y1="-3.25" x2="5.835" y2="-3.25" width="0.2032" layer="21"/>
+<wire x1="5.835" y1="-5.25" x2="5.485" y2="-5.25" width="0.2032" layer="21"/>
+<wire x1="5.485" y1="-5.25" x2="5.485" y2="-6.25" width="0.2032" layer="21"/>
+<wire x1="5.485" y1="-6.25" x2="5.835" y2="-6.25" width="0.2032" layer="21"/>
+<wire x1="-4.31" y1="3.25" x2="-4.31" y2="1.75" width="0.2032" layer="51"/>
+<wire x1="-4.31" y1="1.75" x2="-3.31" y2="1.75" width="0.2032" layer="51"/>
+<wire x1="-3.31" y1="1.75" x2="-3.31" y2="3.25" width="0.2032" layer="51"/>
+<wire x1="-3.31" y1="3.25" x2="-4.31" y2="3.25" width="0.2032" layer="51"/>
+<wire x1="-4.31" y1="1.25" x2="-4.31" y2="-1" width="0.2032" layer="51"/>
+<wire x1="-4.31" y1="-1" x2="-3.31" y2="-1" width="0.2032" layer="51"/>
+<wire x1="-3.31" y1="-1" x2="-3.31" y2="1.25" width="0.2032" layer="51"/>
+<wire x1="-5.08" y1="-6.985" x2="-5.08" y2="4.699" width="0.2032" layer="21"/>
+<wire x1="-2.02" y1="3.75" x2="-2.02" y2="1.25" width="0.2032" layer="51"/>
+<wire x1="-2.02" y1="1.25" x2="-1.77" y2="1.25" width="0.2032" layer="51"/>
+<wire x1="-1.77" y1="1.25" x2="-0.77" y2="1.25" width="0.2032" layer="51"/>
+<wire x1="-0.77" y1="1.25" x2="-0.52" y2="1.25" width="0.2032" layer="51"/>
+<wire x1="-0.52" y1="1.25" x2="-0.52" y2="3.75" width="0.2032" layer="51"/>
+<wire x1="-0.52" y1="3.75" x2="-2.02" y2="3.75" width="0.2032" layer="51"/>
+<wire x1="-1.77" y1="-4.25" x2="-1.77" y2="-5.75" width="0.2032" layer="21"/>
+<wire x1="-1.77" y1="-5.75" x2="-0.77" y2="-5.75" width="0.2032" layer="21"/>
+<wire x1="-0.77" y1="-5.75" x2="-0.77" y2="-4.25" width="0.2032" layer="21"/>
+<wire x1="-0.77" y1="-4.25" x2="-1.77" y2="-4.25" width="0.2032" layer="21"/>
+<wire x1="-1.77" y1="3.25" x2="-1.77" y2="1.75" width="0.2032" layer="51"/>
+<wire x1="-1.77" y1="1.75" x2="-0.77" y2="1.75" width="0.2032" layer="51"/>
+<wire x1="-0.77" y1="1.75" x2="-0.77" y2="3.25" width="0.2032" layer="51"/>
+<wire x1="-0.77" y1="3.25" x2="-1.77" y2="3.25" width="0.2032" layer="51"/>
+<wire x1="-1.77" y1="1.25" x2="-1.77" y2="-1" width="0.2032" layer="51"/>
+<wire x1="-1.77" y1="-1" x2="-0.77" y2="-1" width="0.2032" layer="51"/>
+<wire x1="-0.77" y1="-1" x2="-0.77" y2="1.25" width="0.2032" layer="51"/>
+<wire x1="-2.54" y1="-6.985" x2="-2.54" y2="4.699" width="0.2032" layer="21"/>
+<wire x1="0.52" y1="3.75" x2="0.52" y2="1.25" width="0.2032" layer="51"/>
+<wire x1="0.52" y1="1.25" x2="0.77" y2="1.25" width="0.2032" layer="51"/>
+<wire x1="0.77" y1="1.25" x2="1.77" y2="1.25" width="0.2032" layer="51"/>
+<wire x1="1.77" y1="1.25" x2="2.02" y2="1.25" width="0.2032" layer="51"/>
+<wire x1="2.02" y1="1.25" x2="2.02" y2="3.75" width="0.2032" layer="51"/>
+<wire x1="2.02" y1="3.75" x2="0.52" y2="3.75" width="0.2032" layer="51"/>
+<wire x1="0.77" y1="-4.25" x2="0.77" y2="-5.75" width="0.2032" layer="21"/>
+<wire x1="0.77" y1="-5.75" x2="1.77" y2="-5.75" width="0.2032" layer="21"/>
+<wire x1="1.77" y1="-5.75" x2="1.77" y2="-4.25" width="0.2032" layer="21"/>
+<wire x1="1.77" y1="-4.25" x2="0.77" y2="-4.25" width="0.2032" layer="21"/>
+<wire x1="0.77" y1="3.25" x2="0.77" y2="1.75" width="0.2032" layer="51"/>
+<wire x1="0.77" y1="1.75" x2="1.77" y2="1.75" width="0.2032" layer="51"/>
+<wire x1="1.77" y1="1.75" x2="1.77" y2="3.25" width="0.2032" layer="51"/>
+<wire x1="1.77" y1="3.25" x2="0.77" y2="3.25" width="0.2032" layer="51"/>
+<wire x1="0.77" y1="1.25" x2="0.77" y2="-1" width="0.2032" layer="51"/>
+<wire x1="0.77" y1="-1" x2="1.77" y2="-1" width="0.2032" layer="51"/>
+<wire x1="1.77" y1="-1" x2="1.77" y2="1.25" width="0.2032" layer="51"/>
+<wire x1="0" y1="-6.985" x2="0" y2="4.699" width="0.2032" layer="21"/>
+<wire x1="3.06" y1="3.75" x2="3.06" y2="1.25" width="0.2032" layer="51"/>
+<wire x1="3.06" y1="1.25" x2="3.31" y2="1.25" width="0.2032" layer="51"/>
+<wire x1="3.31" y1="1.25" x2="4.31" y2="1.25" width="0.2032" layer="51"/>
+<wire x1="4.31" y1="1.25" x2="4.56" y2="1.25" width="0.2032" layer="51"/>
+<wire x1="4.56" y1="1.25" x2="4.56" y2="3.75" width="0.2032" layer="51"/>
+<wire x1="4.56" y1="3.75" x2="3.06" y2="3.75" width="0.2032" layer="51"/>
+<wire x1="3.31" y1="-4.25" x2="3.31" y2="-5.75" width="0.2032" layer="21"/>
+<wire x1="3.31" y1="-5.75" x2="4.31" y2="-5.75" width="0.2032" layer="21"/>
+<wire x1="4.31" y1="-5.75" x2="4.31" y2="-4.25" width="0.2032" layer="21"/>
+<wire x1="4.31" y1="-4.25" x2="3.31" y2="-4.25" width="0.2032" layer="21"/>
+<wire x1="3.31" y1="3.25" x2="3.31" y2="1.75" width="0.2032" layer="51"/>
+<wire x1="3.31" y1="1.75" x2="4.31" y2="1.75" width="0.2032" layer="51"/>
+<wire x1="4.31" y1="1.75" x2="4.31" y2="3.25" width="0.2032" layer="51"/>
+<wire x1="4.31" y1="3.25" x2="3.31" y2="3.25" width="0.2032" layer="51"/>
+<wire x1="3.31" y1="1.25" x2="3.31" y2="-1" width="0.2032" layer="51"/>
+<wire x1="3.31" y1="-1" x2="4.31" y2="-1" width="0.2032" layer="51"/>
+<wire x1="4.31" y1="-1" x2="4.31" y2="1.25" width="0.2032" layer="51"/>
+<wire x1="2.54" y1="-6.985" x2="2.54" y2="4.699" width="0.2032" layer="21"/>
+<wire x1="5.08" y1="-6.985" x2="5.08" y2="4.699" width="0.2032" layer="21"/>
+<pad name="A1" x="-3.81" y="2.5" drill="1.2" shape="long" rot="R90"/>
+<pad name="B1" x="-3.81" y="-2.5" drill="1.2" shape="long" rot="R90"/>
+<pad name="A2" x="-1.27" y="2.5" drill="1.2" shape="long" rot="R90"/>
+<pad name="B2" x="-1.27" y="-2.5" drill="1.2" shape="long" rot="R90"/>
+<pad name="A3" x="1.27" y="2.5" drill="1.2" shape="long" rot="R90"/>
+<pad name="B3" x="1.27" y="-2.5" drill="1.2" shape="long" rot="R90"/>
+<pad name="A4" x="3.81" y="2.5" drill="1.2" shape="long" rot="R90"/>
+<pad name="B4" x="3.81" y="-2.5" drill="1.2" shape="long" rot="R90"/>
+<text x="-5.18" y="5.25" size="1.27" layer="25">&gt;NAME</text>
+<text x="1.53" y="5.25" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-3.96" y="-6.85" size="0.8128" layer="21">1</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="233-504" urn="urn:adsk.eagle:package:8079518/1" type="box" library_version="4">
+<description>&lt;b&gt;WAGO Cage Clamp&lt;/b&gt;</description>
+<packageinstances>
+<packageinstance name="233-504"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="KL-4" urn="urn:adsk.eagle:symbol:8079176/1" library_version="4">
+<wire x1="-2.54" y1="2.794" x2="-2.54" y2="2.286" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.286" x2="-1.016" y2="2.286" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="2.286" x2="-1.016" y2="2.794" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="2.794" x2="-2.54" y2="2.794" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0.254" x2="-2.54" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-0.254" x2="-1.016" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-0.254" x2="-1.016" y2="0.254" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="0.254" x2="-2.54" y2="0.254" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.286" x2="-2.54" y2="-2.794" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.794" x2="-1.016" y2="-2.794" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-2.794" x2="-1.016" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-2.286" x2="-2.54" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-4.826" x2="-2.54" y2="-5.334" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.334" x2="-1.016" y2="-5.334" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-5.334" x2="-1.016" y2="-4.826" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-4.826" x2="-2.54" y2="-4.826" width="0.254" layer="94"/>
+<text x="-5.08" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-8.89" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="-1" x="-5.08" y="2.54" visible="pin" length="short" direction="pas"/>
+<pin name="-2" x="-5.08" y="0" visible="pin" length="short" direction="pas"/>
+<pin name="-3" x="-5.08" y="-2.54" visible="pin" length="short" direction="pas"/>
+<pin name="-4" x="-5.08" y="-5.08" visible="pin" length="short" direction="pas"/>
+<pin name="B-4" x="-7.62" y="-5.08" visible="off" length="short" direction="pas"/>
+<pin name="B-1" x="-7.62" y="2.54" visible="off" length="short" direction="pas"/>
+<pin name="B-2" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
+<pin name="B-3" x="-7.62" y="-2.54" visible="off" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="233-504" urn="urn:adsk.eagle:component:8079710/3" prefix="X" uservalue="yes" library_version="4">
+<description>&lt;b&gt;WAGO Cage Clamp&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="KL-4" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="233-504">
+<connects>
+<connect gate="G$1" pin="-1" pad="A1"/>
+<connect gate="G$1" pin="-2" pad="A2"/>
+<connect gate="G$1" pin="-3" pad="A3"/>
+<connect gate="G$1" pin="-4" pad="A4"/>
+<connect gate="G$1" pin="B-1" pad="B1"/>
+<connect gate="G$1" pin="B-2" pad="B2"/>
+<connect gate="G$1" pin="B-3" pad="B3"/>
+<connect gate="G$1" pin="B-4" pad="B4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:8079518/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Wago Corporation" constant="no"/>
+<attribute name="MPN" value="0233-0504" constant="no"/>
+<attribute name="OC_FARNELL" value="1777098" constant="no"/>
+<attribute name="OC_NEWARK" value="79K2050" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -602,37 +802,32 @@ DIN A4, landscape with extra doc field</description>
 </groups>
 <parts>
 <part name="BME680/280" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
-<part name="JP1_ANSCHLUSS" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
-<part name="OTHER" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
+<part name="HDC1080" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="J1" library="Connector" deviceset="TWIG-4P-2.0" device="-2.0"/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="DINA4_L" device=""/>
-<part name="OTHER1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
-<part name="GND" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
+<part name="SHT31/ATH10" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
+<part name="X1" library="con-wago" library_urn="urn:adsk.eagle:library:197" deviceset="233-504" device="" package3d_urn="urn:adsk.eagle:package:8079518/1"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="-254" y="114.554" size="1.778" layer="91" grouprefs="I²C-G1">GND</text>
-<text x="-254" y="109.22" size="1.778" layer="91" grouprefs="I²C-G1">SDA</text>
-<text x="-254" y="111.76" size="1.778" layer="91" grouprefs="I²C-G1">SCL</text>
-<text x="-254" y="117.094" size="1.778" layer="91" grouprefs="I²C-G1">3.3V</text>
+<text x="-193.04" y="129.794" size="1.778" layer="91" grouprefs="I²C-G1">GND</text>
+<text x="-193.04" y="124.46" size="1.778" layer="91" grouprefs="I²C-G1">SDA</text>
+<text x="-193.04" y="127" size="1.778" layer="91" grouprefs="I²C-G1">SCL</text>
+<text x="-193.04" y="132.334" size="1.778" layer="91" grouprefs="I²C-G1">3.3V</text>
 <text x="-220.98" y="91.44" size="1.778" layer="91" grouprefs="I²C-G1">1: SCL/GPIO3
 2: SDA/GPIO2
 3: 3,3V
 4: GND</text>
 </plain>
 <instances>
-<instance part="BME680/280" gate="A" x="-185.42" y="111.76" smashed="yes" grouprefs="I²C-G1">
-<attribute name="NAME" x="-191.77" y="120.015" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-191.77" y="104.14" size="1.778" layer="96"/>
+<instance part="BME680/280" gate="A" x="-180.34" y="111.76" smashed="yes" grouprefs="I²C-G1">
+<attribute name="NAME" x="-186.69" y="120.015" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-186.69" y="104.14" size="1.778" layer="96"/>
 </instance>
-<instance part="JP1_ANSCHLUSS" gate="A" x="-241.3" y="111.76" smashed="yes" grouprefs="I²C-G1">
-<attribute name="NAME" x="-247.65" y="120.015" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-247.65" y="104.14" size="1.778" layer="96"/>
-</instance>
-<instance part="OTHER" gate="A" x="-185.42" y="76.2" smashed="yes" grouprefs="I²C-G1">
-<attribute name="NAME" x="-191.77" y="84.455" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-191.77" y="68.58" size="1.778" layer="96"/>
+<instance part="HDC1080" gate="A" x="-180.34" y="76.2" smashed="yes" grouprefs="I²C-G1">
+<attribute name="NAME" x="-186.69" y="84.455" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-186.69" y="68.58" size="1.778" layer="96"/>
 </instance>
 <instance part="J1" gate="G$1" x="-226.06" y="96.52" smashed="yes" grouprefs="I²C-G1">
 <attribute name="NAME" x="-227.33" y="101.6" size="1.27" layer="95"/>
@@ -642,15 +837,15 @@ DIN A4, landscape with extra doc field</description>
 <instance part="FRAME1" gate="G$2" x="-187.96" y="10.16" smashed="yes">
 <attribute name="LAST_DATE_TIME" x="-175.26" y="11.43" size="2.54" layer="94"/>
 <attribute name="SHEET" x="-101.6" y="11.43" size="2.54" layer="94"/>
-<attribute name="DRAWING_NAME" x="-170.18" y="29.21" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="-175.26" y="29.21" size="2.54" layer="94"/>
 </instance>
-<instance part="OTHER1" gate="A" x="-185.42" y="93.98" smashed="yes">
-<attribute name="NAME" x="-191.77" y="102.235" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-191.77" y="86.36" size="1.778" layer="96"/>
+<instance part="SHT31/ATH10" gate="A" x="-180.34" y="93.98" smashed="yes" grouprefs="I²C-G1">
+<attribute name="NAME" x="-186.69" y="102.235" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-186.69" y="86.36" size="1.778" layer="96"/>
 </instance>
-<instance part="GND" gate="A" x="-220.98" y="78.74" smashed="yes">
-<attribute name="NAME" x="-227.33" y="86.995" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-227.33" y="71.12" size="1.778" layer="96"/>
+<instance part="X1" gate="G$1" x="-177.8" y="129.54" smashed="yes" grouprefs="I²C-G1">
+<attribute name="NAME" x="-182.88" y="134.62" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-182.88" y="120.65" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -658,115 +853,100 @@ DIN A4, landscape with extra doc field</description>
 <nets>
 <net name="BME_SCL/SCK" class="0">
 <segment>
-<label x="-238.76" y="111.76" size="1.778" layer="95" grouprefs="I²C-G1"/>
-<pinref part="JP1_ANSCHLUSS" gate="A" pin="3"/>
-<wire x1="-243.84" y1="111.76" x2="-231.14" y2="111.76" width="0.1524" layer="91" grouprefs="I²C-G1"/>
+<label x="-226.06" y="111.76" size="1.778" layer="95" grouprefs="I²C-G1"/>
 <pinref part="BME680/280" gate="A" pin="3"/>
-<pinref part="OTHER" gate="A" pin="2"/>
-<wire x1="-231.14" y1="111.76" x2="-198.12" y2="111.76" width="0.1524" layer="91" grouprefs="I²C-G1"/>
-<wire x1="-198.12" y1="111.76" x2="-187.96" y2="111.76" width="0.1524" layer="91" grouprefs="I²C-G1"/>
-<wire x1="-198.12" y1="78.74" x2="-187.96" y2="78.74" width="0.1524" layer="91" grouprefs="I²C-G1"/>
-<wire x1="-198.12" y1="78.74" x2="-198.12" y2="96.52" width="0.1524" layer="91" grouprefs="I²C-G1"/>
-<junction x="-198.12" y="111.76" grouprefs="I²C-G1"/>
+<wire x1="-231.14" y1="111.76" x2="-203.2" y2="111.76" width="0.1524" layer="91" grouprefs="I²C-G1"/>
+<wire x1="-203.2" y1="111.76" x2="-182.88" y2="111.76" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="-198.12" y1="96.52" x2="-198.12" y2="111.76" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <wire x1="-231.14" y1="111.76" x2="-231.14" y2="100.33" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <wire x1="-231.14" y1="100.33" x2="-229.87" y2="100.33" width="0.1524" layer="91" grouprefs="I²C-G1"/>
-<junction x="-231.14" y="111.76" grouprefs="I²C-G1"/>
-<pinref part="OTHER1" gate="A" pin="2"/>
-<wire x1="-187.96" y1="96.52" x2="-198.12" y2="96.52" width="0.1524" layer="91"/>
-<junction x="-198.12" y="96.52"/>
+<pinref part="HDC1080" gate="A" pin="4"/>
+<wire x1="-182.88" y1="73.66" x2="-203.2" y2="73.66" width="0.1524" layer="91" grouprefs="I²C-G1"/>
+<wire x1="-203.2" y1="73.66" x2="-203.2" y2="93.98" width="0.1524" layer="91" grouprefs="I²C-G1"/>
+<junction x="-203.2" y="111.76" grouprefs="I²C-G1"/>
+<pinref part="SHT31/ATH10" gate="A" pin="3"/>
+<wire x1="-203.2" y1="93.98" x2="-203.2" y2="111.76" width="0.1524" layer="91" grouprefs="I²C-G1"/>
+<wire x1="-182.88" y1="93.98" x2="-203.2" y2="93.98" width="0.1524" layer="91" grouprefs="I²C-G1"/>
+<junction x="-203.2" y="93.98" grouprefs="I²C-G1"/>
+<pinref part="X1" gate="G$1" pin="B-3"/>
+<wire x1="-203.2" y1="111.76" x2="-203.2" y2="127" width="0.1524" layer="91"/>
+<wire x1="-203.2" y1="127" x2="-185.42" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BME_SDI/SDA" class="0">
 <segment>
-<label x="-238.76" y="109.22" size="1.778" layer="95" grouprefs="I²C-G1"/>
-<pinref part="JP1_ANSCHLUSS" gate="A" pin="4"/>
-<wire x1="-187.96" y1="109.22" x2="-195.58" y2="109.22" width="0.1524" layer="91" grouprefs="I²C-G1"/>
+<label x="-226.06" y="109.22" size="1.778" layer="95" grouprefs="I²C-G1"/>
 <pinref part="BME680/280" gate="A" pin="4"/>
-<wire x1="-195.58" y1="109.22" x2="-233.68" y2="109.22" width="0.1524" layer="91" grouprefs="I²C-G1"/>
-<wire x1="-233.68" y1="109.22" x2="-243.84" y2="109.22" width="0.1524" layer="91" grouprefs="I²C-G1"/>
-<wire x1="-195.58" y1="109.22" x2="-195.58" y2="99.06" width="0.1524" layer="91" grouprefs="I²C-G1"/>
-<junction x="-195.58" y="109.22" grouprefs="I²C-G1"/>
-<pinref part="OTHER" gate="A" pin="1"/>
-<wire x1="-195.58" y1="99.06" x2="-195.58" y2="81.28" width="0.1524" layer="91" grouprefs="I²C-G1"/>
-<wire x1="-195.58" y1="81.28" x2="-187.96" y2="81.28" width="0.1524" layer="91" grouprefs="I²C-G1"/>
+<wire x1="-182.88" y1="109.22" x2="-200.66" y2="109.22" width="0.1524" layer="91" grouprefs="I²C-G1"/>
+<wire x1="-200.66" y1="109.22" x2="-233.68" y2="109.22" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <pinref part="J1" gate="G$1" pin="2"/>
 <wire x1="-233.68" y1="109.22" x2="-233.68" y2="97.79" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <wire x1="-233.68" y1="97.79" x2="-229.87" y2="97.79" width="0.1524" layer="91" grouprefs="I²C-G1"/>
-<junction x="-233.68" y="109.22" grouprefs="I²C-G1"/>
-<pinref part="OTHER1" gate="A" pin="1"/>
-<wire x1="-187.96" y1="99.06" x2="-195.58" y2="99.06" width="0.1524" layer="91"/>
-<junction x="-195.58" y="99.06"/>
+<wire x1="-200.66" y1="109.22" x2="-200.66" y2="91.44" width="0.1524" layer="91" grouprefs="I²C-G1"/>
+<junction x="-200.66" y="109.22" grouprefs="I²C-G1"/>
+<pinref part="HDC1080" gate="A" pin="3"/>
+<wire x1="-200.66" y1="91.44" x2="-200.66" y2="76.2" width="0.1524" layer="91" grouprefs="I²C-G1"/>
+<wire x1="-200.66" y1="76.2" x2="-182.88" y2="76.2" width="0.1524" layer="91" grouprefs="I²C-G1"/>
+<pinref part="SHT31/ATH10" gate="A" pin="4"/>
+<wire x1="-182.88" y1="91.44" x2="-200.66" y2="91.44" width="0.1524" layer="91" grouprefs="I²C-G1"/>
+<junction x="-200.66" y="91.44" grouprefs="I²C-G1"/>
+<pinref part="X1" gate="G$1" pin="B-4"/>
+<wire x1="-200.66" y1="109.22" x2="-200.66" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="-200.66" y1="124.46" x2="-185.42" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="2">
 <segment>
-<label x="-238.76" y="114.3" size="1.778" layer="95" grouprefs="I²C-G1"/>
-<pinref part="JP1_ANSCHLUSS" gate="A" pin="2"/>
-<wire x1="-187.96" y1="114.3" x2="-200.66" y2="114.3" width="0.1524" layer="91" grouprefs="I²C-G1"/>
+<label x="-226.06" y="114.3" size="1.778" layer="95" grouprefs="I²C-G1"/>
+<wire x1="-182.88" y1="114.3" x2="-195.58" y2="114.3" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <pinref part="BME680/280" gate="A" pin="2"/>
-<pinref part="OTHER" gate="A" pin="3"/>
-<wire x1="-200.66" y1="114.3" x2="-238.76" y2="114.3" width="0.1524" layer="91" grouprefs="I²C-G1"/>
-<wire x1="-238.76" y1="114.3" x2="-243.84" y2="114.3" width="0.1524" layer="91" grouprefs="I²C-G1"/>
-<wire x1="-200.66" y1="114.3" x2="-200.66" y2="93.98" width="0.1524" layer="91" grouprefs="I²C-G1"/>
-<wire x1="-200.66" y1="93.98" x2="-200.66" y2="76.2" width="0.1524" layer="91" grouprefs="I²C-G1"/>
-<wire x1="-200.66" y1="76.2" x2="-187.96" y2="76.2" width="0.1524" layer="91" grouprefs="I²C-G1"/>
-<junction x="-200.66" y="114.3" grouprefs="I²C-G1"/>
+<wire x1="-195.58" y1="114.3" x2="-238.76" y2="114.3" width="0.1524" layer="91" grouprefs="I²C-G1"/>
+<wire x1="-195.58" y1="114.3" x2="-195.58" y2="96.52" width="0.1524" layer="91" grouprefs="I²C-G1"/>
+<junction x="-195.58" y="114.3" grouprefs="I²C-G1"/>
+<wire x1="-195.58" y1="96.52" x2="-195.58" y2="81.28" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <wire x1="-238.76" y1="114.3" x2="-238.76" y2="92.71" width="0.1524" layer="91" grouprefs="I²C-G1"/>
-<junction x="-238.76" y="114.3" grouprefs="I²C-G1"/>
 <pinref part="J1" gate="G$1" pin="4"/>
 <wire x1="-238.76" y1="92.71" x2="-229.87" y2="92.71" width="0.1524" layer="91" grouprefs="I²C-G1"/>
-<pinref part="OTHER1" gate="A" pin="3"/>
-<wire x1="-187.96" y1="93.98" x2="-200.66" y2="93.98" width="0.1524" layer="91"/>
-<junction x="-200.66" y="93.98"/>
-<wire x1="-238.76" y1="92.71" x2="-238.76" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="GND" gate="A" pin="1"/>
-<wire x1="-238.76" y1="83.82" x2="-223.52" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="GND" gate="A" pin="2"/>
-<wire x1="-238.76" y1="83.82" x2="-238.76" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="-238.76" y1="81.28" x2="-223.52" y2="81.28" width="0.1524" layer="91"/>
-<junction x="-238.76" y="83.82"/>
-<pinref part="GND" gate="A" pin="3"/>
-<wire x1="-238.76" y1="81.28" x2="-238.76" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="-238.76" y1="78.74" x2="-223.52" y2="78.74" width="0.1524" layer="91"/>
-<junction x="-238.76" y="81.28"/>
-<pinref part="GND" gate="A" pin="4"/>
-<wire x1="-238.76" y1="78.74" x2="-238.76" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="-238.76" y1="76.2" x2="-223.52" y2="76.2" width="0.1524" layer="91"/>
-<junction x="-238.76" y="78.74"/>
+<pinref part="HDC1080" gate="A" pin="1"/>
+<wire x1="-182.88" y1="81.28" x2="-195.58" y2="81.28" width="0.1524" layer="91" grouprefs="I²C-G1"/>
+<pinref part="SHT31/ATH10" gate="A" pin="2"/>
+<wire x1="-182.88" y1="96.52" x2="-195.58" y2="96.52" width="0.1524" layer="91" grouprefs="I²C-G1"/>
+<junction x="-195.58" y="96.52" grouprefs="I²C-G1"/>
+<label x="-193.04" y="96.52" size="1.778" layer="95" grouprefs="I²C-G1"/>
+<label x="-193.04" y="81.28" size="1.778" layer="95" grouprefs="I²C-G1"/>
+<pinref part="X1" gate="G$1" pin="B-2"/>
+<wire x1="-195.58" y1="114.3" x2="-195.58" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="-195.58" y1="129.54" x2="-185.42" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3V3" class="1">
 <segment>
-<label x="-238.76" y="116.84" size="1.778" layer="95" grouprefs="I²C-G1"/>
-<pinref part="JP1_ANSCHLUSS" gate="A" pin="1"/>
+<label x="-226.06" y="116.84" size="1.778" layer="95" grouprefs="I²C-G1"/>
 <pinref part="BME680/280" gate="A" pin="1"/>
-<wire x1="-243.84" y1="116.84" x2="-236.22" y2="116.84" width="0.1524" layer="91" grouprefs="I²C-G1"/>
-<wire x1="-236.22" y1="116.84" x2="-203.2" y2="116.84" width="0.1524" layer="91" grouprefs="I²C-G1"/>
-<wire x1="-203.2" y1="116.84" x2="-187.96" y2="116.84" width="0.1524" layer="91" grouprefs="I²C-G1"/>
-<wire x1="-203.2" y1="116.84" x2="-203.2" y2="91.44" width="0.1524" layer="91" grouprefs="I²C-G1"/>
-<junction x="-203.2" y="116.84" grouprefs="I²C-G1"/>
-<pinref part="OTHER" gate="A" pin="4"/>
-<wire x1="-203.2" y1="91.44" x2="-203.2" y2="73.66" width="0.1524" layer="91" grouprefs="I²C-G1"/>
-<wire x1="-203.2" y1="73.66" x2="-187.96" y2="73.66" width="0.1524" layer="91" grouprefs="I²C-G1"/>
+<wire x1="-236.22" y1="116.84" x2="-198.12" y2="116.84" width="0.1524" layer="91" grouprefs="I²C-G1"/>
+<wire x1="-198.12" y1="116.84" x2="-182.88" y2="116.84" width="0.1524" layer="91" grouprefs="I²C-G1"/>
+<wire x1="-198.12" y1="116.84" x2="-198.12" y2="99.06" width="0.1524" layer="91" grouprefs="I²C-G1"/>
+<junction x="-198.12" y="116.84" grouprefs="I²C-G1"/>
 <pinref part="J1" gate="G$1" pin="3"/>
+<wire x1="-198.12" y1="99.06" x2="-198.12" y2="78.74" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <wire x1="-236.22" y1="116.84" x2="-236.22" y2="95.25" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <wire x1="-236.22" y1="95.25" x2="-229.87" y2="95.25" width="0.1524" layer="91" grouprefs="I²C-G1"/>
-<junction x="-236.22" y="116.84" grouprefs="I²C-G1"/>
-<pinref part="OTHER1" gate="A" pin="4"/>
-<wire x1="-187.96" y1="91.44" x2="-203.2" y2="91.44" width="0.1524" layer="91"/>
-<junction x="-203.2" y="91.44"/>
+<pinref part="HDC1080" gate="A" pin="2"/>
+<wire x1="-182.88" y1="78.74" x2="-198.12" y2="78.74" width="0.1524" layer="91" grouprefs="I²C-G1"/>
+<pinref part="SHT31/ATH10" gate="A" pin="1"/>
+<wire x1="-182.88" y1="99.06" x2="-198.12" y2="99.06" width="0.1524" layer="91" grouprefs="I²C-G1"/>
+<junction x="-198.12" y="99.06" grouprefs="I²C-G1"/>
+<label x="-193.04" y="99.06" size="1.778" layer="95" grouprefs="I²C-G1"/>
+<label x="-193.04" y="78.74" size="1.778" layer="95" grouprefs="I²C-G1"/>
+<pinref part="X1" gate="G$1" pin="B-1"/>
+<wire x1="-198.12" y1="116.84" x2="-198.12" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="-198.12" y1="132.08" x2="-185.42" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
 </sheet>
 </sheets>
 <errors>
-<approved hash="113,1,-184.406,114.526,BME680/280,,,,,"/>
-<approved hash="113,1,-236.966,114.526,JP1_ANSCHLUSS,,,,,"/>
-<approved hash="113,1,-187.723,78.9661,AHT10,,,,,"/>
-<approved hash="113,1,-228.156,97.1296,J1,,,,,"/>
 <approved hash="113,1,-218.544,100.226,FRAME1,,,,,"/>
 </errors>
 </schematic>

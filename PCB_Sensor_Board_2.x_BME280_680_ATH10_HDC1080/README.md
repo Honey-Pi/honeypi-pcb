@@ -17,7 +17,7 @@ This version is currently being procured and tested.
 Please do not order these without having contacted us before.  
 Thank you for your understanding!  
 
-You can upload this [gerber file](./PCB_Sensor_Board_2.x_BME280_680_ATH10_HDC1080_2020-11-16.zip) to [this manufactory service](https://jlcpcb.com/quote) to get few PCBs. 10 pieces of this board cost about 7 € with delivery. 
+You can upload this [gerber file](./PCB_Sensor_Board_2.x_BME280_680_ATH10_HDC1080_2020-12-14.zip) to [this manufactory service](https://jlcpcb.com/quote) to get few PCBs. 10 pieces of this board cost about 7 € with delivery. 
 
 ### Pictures
 ![Board render picture](./Pictures/PCB_Sensor_Board_2.x_BME280_680_ATH10_HDC1080.png)

@@ -17415,8 +17415,8 @@ Wickmann</description>
 </groups>
 <parts>
 <part name="RASPBERRY_PI" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X20" device="" package3d_urn="urn:adsk.eagle:package:22443/2"/>
-<part name="C_SP1" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2,5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="100µF"/>
-<part name="C_SP2" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2,5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="1µF"/>
+<part name="C_SP1" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2,5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="xxµF"/>
+<part name="C_SP2" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2,5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="xµF"/>
 <part name="TASTER_LED" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="R_LED" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="130Ohm">
 <spice>
@@ -17507,15 +17507,15 @@ Wickmann</description>
 <text x="-165.1" y="342.9" size="1.778" layer="91" grouprefs="G_RASPBERRY_INTERFACE">5V</text>
 <text x="25.4" y="180.34" size="1.778" layer="91" grouprefs="G_DS18B20">3v3/GPIO9</text>
 <text x="25.4" y="162.56" size="1.778" layer="91" grouprefs="G_DS18B20">DATA</text>
-<text x="-190.5" y="160.274" size="1.778" layer="91" grouprefs="G_I²C">GND</text>
+<text x="-190.5" y="155.194" size="1.778" layer="91" grouprefs="G_I²C">GND</text>
 <text x="25.4" y="157.48" size="1.778" layer="91" grouprefs="G_DS18B20">GND</text>
-<text x="-190.5" y="154.94" size="1.778" layer="91" grouprefs="G_I²C">SCL</text>
-<text x="-190.5" y="157.48" size="1.778" layer="91" grouprefs="G_I²C">SDA</text>
-<text x="-190.5" y="152.4" size="1.778" layer="91" grouprefs="G_I²C">SD0</text>
-<text x="-190.5" y="149.86" size="1.778" layer="91" grouprefs="G_I²C">CS</text>
+<text x="-190.5" y="152.4" size="1.778" layer="91" grouprefs="G_I²C">SCL</text>
+<text x="-190.5" y="149.86" size="1.778" layer="91" grouprefs="G_I²C">SDA</text>
+<text x="-190.5" y="147.32" size="1.778" layer="91" grouprefs="G_I²C">SD0</text>
+<text x="-190.5" y="144.78" size="1.778" layer="91" grouprefs="G_I²C">CS</text>
 <text x="-81.28" y="343.408" size="1.778" layer="91" grouprefs="G_TASTER_LED">3v3</text>
 <text x="-149.86" y="218.8464" size="1.778" layer="91" rot="R90" grouprefs="G1_SPANNUNGSVERSORGUNG">5V</text>
-<text x="-127" y="216.3064" size="1.778" layer="91" rot="R90" grouprefs="G1_SPANNUNGSVERSORGUNG">GND</text>
+<text x="-127" y="218.8464" size="1.778" layer="91" rot="R90" grouprefs="G1_SPANNUNGSVERSORGUNG">GND</text>
 <text x="-134.62" y="265.3284" size="1.778" layer="91" grouprefs="G1_SPANNUNGSVERSORGUNG">GND</text>
 <text x="-149.86" y="277.2664" size="1.778" layer="91" grouprefs="G1_SPANNUNGSVERSORGUNG">7-16,5V(25V)</text>
 <text x="-130.81" y="-13.462" size="1.778" layer="91" grouprefs="G1-HX711">Altern. Pflaume
@@ -17618,10 +17618,6 @@ SCK an Pin 37/GPIO26
 DT an Pin 22/GPIO25
 VCC an Pin 02/3,3V
 GND an Pin 06/Ground</text>
-<text x="-124.46" y="160.274" size="1.778" layer="91" grouprefs="G_I²C">GND</text>
-<text x="-124.46" y="154.94" size="1.778" layer="91" grouprefs="G_I²C">SDA</text>
-<text x="-124.46" y="157.48" size="1.778" layer="91" grouprefs="G_I²C">SCL</text>
-<text x="-119.888" y="163.322" size="1.778" layer="91" rot="R90" grouprefs="G_I²C">3.3V</text>
 <text x="-165.1" y="315.468" size="1.778" layer="91" grouprefs="G_RASPBERRY_INTERFACE">GPIO8</text>
 <text x="-165.1" y="312.928" size="1.778" layer="91" grouprefs="G_RASPBERRY_INTERFACE">GPIO7</text>
 <text x="-165.1" y="310.388" size="1.778" layer="91" grouprefs="G_RASPBERRY_INTERFACE">ID_SC</text>
@@ -17663,7 +17659,7 @@ Grove herrausgeführt.
 Pins vom Raspberry werden durchgeführt
 und es kann so alternativ drauf zugegriffen werden.
 </text>
-<text x="-239.9538" y="184.7342" size="1.778" layer="91" grouprefs="G1_SPANNUNGSVERSORGUNG">Spannungsversorgung
+<text x="-239.9538" y="179.6542" size="1.778" layer="91" grouprefs="G1_SPANNUNGSVERSORGUNG">Spannungsversorgung
 Hier kann ein LM2596-Modul auf Pins direkt
 aufgesetzt werden. Dann kann eine
 Spannung (z.B. von einem Solarregler) von
@@ -17686,7 +17682,7 @@ Spannungsquelle zur Verfügung steht,
 gibt es einen alternativen Anschlusspunkt.
 Bei Bedarf können auch zwei
 Kondensatoren C1 &amp; C2
-gesetzt werden.    
+gesetzt werden (eigene Auslegung).   
 
 5V(OUT)
 Zum Anschluss weitere Geräte.
@@ -17716,11 +17712,11 @@ t = 4,7 ms
 </text>
 <text x="-50.8" y="347.218" size="1.778" layer="91" grouprefs="G_TASTER_LED">LED typ: Rot, 2V, 10mA
 LED Vorwiderstand R3=130 Ohm</text>
-<text x="-189.738" y="163.068" size="1.778" layer="91" grouprefs="G_I²C">3.3V</text>
-<text x="-189.738" y="170.688" size="1.778" layer="91" grouprefs="G_I²C">3.3V</text>
-<text x="-175.26" y="142.494" size="1.778" layer="91" grouprefs="G_I²C">GND</text>
-<text x="-175.26" y="147.32" size="1.778" layer="91" grouprefs="G_I²C">SDA</text>
-<text x="-175.26" y="149.86" size="1.778" layer="91" grouprefs="G_I²C">SCL</text>
+<text x="-189.738" y="157.988" size="1.778" layer="91" grouprefs="G_I²C">3.3V</text>
+<text x="-189.738" y="165.608" size="1.778" layer="91" grouprefs="G_I²C">3.3V</text>
+<text x="-175.26" y="137.414" size="1.778" layer="91" grouprefs="G_I²C">GND</text>
+<text x="-175.26" y="144.78" size="1.778" layer="91" grouprefs="G_I²C">SDA</text>
+<text x="-175.26" y="142.24" size="1.778" layer="91" grouprefs="G_I²C">SCL</text>
 <text x="25.4" y="248.92" size="1.778" layer="91" rot="R90" grouprefs="G3_SPANNUNGSVERSORGUNG">GND</text>
 <text x="22.86" y="248.92" size="1.778" layer="91" rot="R90" grouprefs="G3_SPANNUNGSVERSORGUNG">5V</text>
 <text x="30.48" y="248.92" size="1.778" layer="91" rot="R90" grouprefs="G3_SPANNUNGSVERSORGUNG">3V3</text>
@@ -17746,6 +17742,15 @@ PIN 1 an WittyPI 5V
 PIN 4  an WittyPI GND</text>
 <text x="-238.76" y="276.86" size="1.778" layer="91">Nur zur Befestigung
 bei Buchsenleisten</text>
+<text x="-160.02" y="119.38" size="1.778" layer="91" grouprefs="G_I²C">Fehlerhafte Belegung I²C!
+Bis Platine 2.01:
+ SDA -  PIN1
+ SCL - PIN2
+Dieser Schaltplan zeigt die richtige Pinbelegung.
+Workaround: 
+   Pinreihenfolge im Stecker anpassen.
+   Beschriftung auf der Platine korrigieren
+   (nur BME680_GROVE)</text>
 </plain>
 <instances>
 <instance part="RASPBERRY_PI" gate="A" x="-175.26" y="320.04" smashed="yes" grouprefs="G_RASPBERRY_INTERFACE">
@@ -17754,7 +17759,7 @@ bei Buchsenleisten</text>
 </instance>
 <instance part="C_SP1" gate="G$1" x="-139.7" y="218.8464" smashed="yes" rot="R90" grouprefs="G1_SPANNUNGSVERSORGUNG">
 <attribute name="NAME" x="-143.256" y="221.7674" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-131.064" y="215.9254" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="-131.064" y="218.4654" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C_SP2" gate="G$1" x="-139.7" y="208.6864" smashed="yes" rot="R90" grouprefs="G1_SPANNUNGSVERSORGUNG">
 <attribute name="NAME" x="-143.256" y="211.6074" size="1.778" layer="95"/>
@@ -17785,7 +17790,7 @@ bei Buchsenleisten</text>
 </instance>
 <instance part="DC_OUT_5V-" gate="G$1" x="-124.46" y="236.6264" smashed="yes" grouprefs="G1_SPANNUNGSVERSORGUNG">
 <attribute name="NAME" x="-115.57" y="241.0714" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-130.81" y="231.5464" size="1.778" layer="96"/>
+<attribute name="VALUE" x="-133.35" y="231.5464" size="1.778" layer="96"/>
 </instance>
 <instance part="POWER_IN" gate="A" x="-142.24" y="271.78" smashed="yes" rot="R90" grouprefs="G1_SPANNUNGSVERSORGUNG">
 <attribute name="NAME" x="-138.43" y="276.225" size="1.778" layer="95" rot="R180"/>
@@ -17914,17 +17919,17 @@ bei Buchsenleisten</text>
 <attribute name="NAME" x="-33.02" y="-105.41" size="1.27" layer="95"/>
 <attribute name="VALUE" x="-29.21" y="-114.3" size="1.27" layer="96" rot="R90"/>
 </instance>
-<instance part="BME680_GROVE" gate="G$1" x="-167.132" y="146.05" smashed="yes" grouprefs="G_I²C">
-<attribute name="NAME" x="-161.798" y="139.446" size="1.27" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-164.592" y="142.24" size="1.27" layer="96" rot="R90"/>
+<instance part="BME680_GROVE" gate="G$1" x="-167.132" y="140.97" smashed="yes" grouprefs="G_I²C">
+<attribute name="NAME" x="-161.798" y="134.366" size="1.27" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-164.592" y="137.16" size="1.27" layer="96" rot="R90"/>
 </instance>
 <instance part="UART_GROVE" gate="G$1" x="26.0604" y="328.93" smashed="yes" grouprefs="G_UART">
 <attribute name="NAME" x="24.5364" y="334.772" size="1.27" layer="95"/>
 <attribute name="VALUE" x="28.6004" y="325.12" size="1.27" layer="96" rot="R90"/>
 </instance>
-<instance part="PCF8591_I²C" gate="A" x="-111.76" y="157.48" smashed="yes" grouprefs="G_I²C">
-<attribute name="NAME" x="-107.315" y="151.13" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-118.11" y="149.86" size="1.778" layer="96"/>
+<instance part="PCF8591_I²C" gate="A" x="-109.22" y="152.4" smashed="yes" grouprefs="G_I²C">
+<attribute name="NAME" x="-120.65" y="160.655" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-115.57" y="144.78" size="1.778" layer="96"/>
 </instance>
 <instance part="I²C_RPI/LM33" gate="A" x="-38.1" y="246.38" smashed="yes" rot="R90" grouprefs="G2_SPANNUNGSVERSORGUNG">
 <attribute name="NAME" x="-29.845" y="233.172" size="1.778" layer="95" rot="R90"/>
@@ -17954,13 +17959,13 @@ bei Buchsenleisten</text>
 <attribute name="NAME" x="-186.055" y="232.8164" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-187.96" y="248.0564" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="I²C" gate="A" x="-152.4" y="157.48" smashed="yes" grouprefs="G_I²C">
-<attribute name="NAME" x="-158.75" y="165.735" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-158.75" y="149.86" size="1.778" layer="96"/>
+<instance part="I²C" gate="A" x="-157.48" y="152.4" smashed="yes" grouprefs="G_I²C">
+<attribute name="NAME" x="-163.83" y="160.655" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-163.83" y="144.78" size="1.778" layer="96"/>
 </instance>
-<instance part="BME680" gate="A" x="-193.04" y="157.48" smashed="yes" grouprefs="G_I²C">
-<attribute name="NAME" x="-199.39" y="165.735" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-199.39" y="147.32" size="1.778" layer="96"/>
+<instance part="BME680" gate="A" x="-193.04" y="152.4" smashed="yes" grouprefs="G_I²C">
+<attribute name="NAME" x="-199.39" y="160.655" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-199.39" y="142.24" size="1.778" layer="96"/>
 </instance>
 <instance part="HX711-3" gate="A" x="-210.82" y="-88.9" smashed="yes" grouprefs="G3-HX711">
 <attribute name="NAME" x="-217.17" y="-80.645" size="1.778" layer="95"/>
@@ -17999,9 +18004,9 @@ bei Buchsenleisten</text>
 <attribute name="NAME" x="-36.83" y="165.735" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-36.83" y="157.48" size="1.778" layer="96"/>
 </instance>
-<instance part="#76_77" gate="G$1" x="-208.28" y="147.32" smashed="yes" rot="R270" grouprefs="G_I²C">
-<attribute name="NAME" x="-212.09" y="142.875" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-213.36" y="153.67" size="1.778" layer="96" rot="R270"/>
+<instance part="#76_77" gate="G$1" x="-208.28" y="142.24" smashed="yes" rot="R270" grouprefs="G_I²C">
+<attribute name="NAME" x="-212.09" y="137.795" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-213.36" y="148.59" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="LF33_I²C" gate="1" x="-60.96" y="233.68" smashed="yes">
 <attribute name="NAME" x="-66.04" y="227.33" size="1.778" layer="95"/>
@@ -18102,26 +18107,25 @@ bei Buchsenleisten</text>
 <label x="-241.3" y="337.82" size="1.778" layer="95" grouprefs="G_RASPBERRY_INTERFACE"/>
 </segment>
 <segment>
-<wire x1="-162.56" y1="157.48" x2="-162.56" y2="160.02" width="0.1524" layer="91" grouprefs="G_I²C"/>
-<wire x1="-182.88" y1="157.48" x2="-162.56" y2="157.48" width="0.1524" layer="91" grouprefs="G_I²C"/>
-<wire x1="-182.88" y1="157.48" x2="-182.88" y2="147.32" width="0.1524" layer="91" grouprefs="G_I²C"/>
-<wire x1="-154.94" y1="160.02" x2="-142.24" y2="160.02" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<wire x1="-167.64" y1="152.4" x2="-167.64" y2="154.94" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<wire x1="-182.88" y1="152.4" x2="-167.64" y2="152.4" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<wire x1="-182.88" y1="152.4" x2="-182.88" y2="142.24" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<wire x1="-160.02" y1="154.94" x2="-147.32" y2="154.94" width="0.1524" layer="91" grouprefs="G_I²C"/>
 <pinref part="I²C" gate="A" pin="2"/>
-<wire x1="-154.94" y1="160.02" x2="-162.56" y2="160.02" width="0.1524" layer="91" grouprefs="G_I²C"/>
-<junction x="-154.94" y="160.02" grouprefs="G_I²C"/>
+<wire x1="-160.02" y1="154.94" x2="-167.64" y2="154.94" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<junction x="-160.02" y="154.94" grouprefs="G_I²C"/>
 <pinref part="BME680" gate="A" pin="3"/>
-<wire x1="-182.88" y1="157.48" x2="-195.58" y2="157.48" width="0.1524" layer="91" grouprefs="G_I²C"/>
-<junction x="-182.88" y="157.48" grouprefs="G_I²C"/>
-<wire x1="-238.76" y1="157.48" x2="-195.58" y2="157.48" width="0.1524" layer="91" grouprefs="G_I²C"/>
-<label x="-238.76" y="157.48" size="1.778" layer="95" grouprefs="G_I²C"/>
-<junction x="-195.58" y="157.48" grouprefs="G_I²C"/>
+<wire x1="-182.88" y1="152.4" x2="-195.58" y2="152.4" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<junction x="-182.88" y="152.4" grouprefs="G_I²C"/>
+<wire x1="-238.76" y1="152.4" x2="-195.58" y2="152.4" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<label x="-238.76" y="152.4" size="1.778" layer="95" grouprefs="G_I²C"/>
+<junction x="-195.58" y="152.4" grouprefs="G_I²C"/>
 <pinref part="BME680_GROVE" gate="G$1" pin="2"/>
-<wire x1="-170.942" y1="147.32" x2="-182.88" y2="147.32" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<wire x1="-170.942" y1="142.24" x2="-182.88" y2="142.24" width="0.1524" layer="91" grouprefs="G_I²C"/>
 <pinref part="PCF8591_I²C" gate="A" pin="4"/>
-<wire x1="-142.24" y1="152.4" x2="-127" y2="152.4" width="0.1524" layer="91" grouprefs="G_I²C"/>
-<wire x1="-127" y1="152.4" x2="-127" y2="154.94" width="0.1524" layer="91" grouprefs="G_I²C"/>
-<wire x1="-127" y1="154.94" x2="-114.3" y2="154.94" width="0.1524" layer="91" grouprefs="G_I²C"/>
-<wire x1="-142.24" y1="160.02" x2="-142.24" y2="152.4" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<wire x1="-147.32" y1="149.86" x2="-111.76" y2="149.86" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<wire x1="-147.32" y1="154.94" x2="-147.32" y2="149.86" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<label x="-139.7" y="149.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="HX711_V" class="1">
@@ -18507,11 +18511,11 @@ bei Buchsenleisten</text>
 </net>
 <net name="N$8" class="0">
 <segment>
-<wire x1="-200.66" y1="149.86" x2="-200.66" y2="152.4" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<wire x1="-200.66" y1="144.78" x2="-200.66" y2="147.32" width="0.1524" layer="91" grouprefs="G_I²C"/>
 <pinref part="BME680" gate="A" pin="5"/>
-<wire x1="-200.66" y1="152.4" x2="-195.58" y2="152.4" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<wire x1="-200.66" y1="147.32" x2="-195.58" y2="147.32" width="0.1524" layer="91" grouprefs="G_I²C"/>
 <pinref part="#76_77" gate="G$1" pin="1"/>
-<wire x1="-205.74" y1="149.86" x2="-200.66" y2="149.86" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<wire x1="-205.74" y1="144.78" x2="-200.66" y2="144.78" width="0.1524" layer="91" grouprefs="G_I²C"/>
 </segment>
 </net>
 <net name="TX_0_PIN_8" class="0">
@@ -18545,26 +18549,27 @@ bei Buchsenleisten</text>
 <label x="-241.3" y="340.36" size="1.778" layer="95" grouprefs="G_RASPBERRY_INTERFACE"/>
 </segment>
 <segment>
-<wire x1="-167.64" y1="154.94" x2="-167.64" y2="162.56" width="0.1524" layer="91" grouprefs="G_I²C"/>
-<wire x1="-185.42" y1="154.94" x2="-167.64" y2="154.94" width="0.1524" layer="91" grouprefs="G_I²C"/>
-<wire x1="-185.42" y1="154.94" x2="-185.42" y2="149.86" width="0.1524" layer="91" grouprefs="G_I²C"/>
-<wire x1="-127" y1="172.72" x2="-127" y2="157.48" width="0.1524" layer="91" grouprefs="G_I²C"/>
-<wire x1="-149.86" y1="172.72" x2="-127" y2="172.72" width="0.1524" layer="91" grouprefs="G_I²C"/>
-<wire x1="-149.86" y1="162.56" x2="-149.86" y2="172.72" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<wire x1="-172.72" y1="149.86" x2="-172.72" y2="157.48" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<wire x1="-185.42" y1="149.86" x2="-172.72" y2="149.86" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<wire x1="-185.42" y1="149.86" x2="-185.42" y2="144.78" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<wire x1="-144.78" y1="162.56" x2="-144.78" y2="152.4" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<wire x1="-154.94" y1="162.56" x2="-144.78" y2="162.56" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<wire x1="-154.94" y1="157.48" x2="-154.94" y2="162.56" width="0.1524" layer="91" grouprefs="G_I²C"/>
 <pinref part="I²C" gate="A" pin="1"/>
-<wire x1="-149.86" y1="162.56" x2="-154.94" y2="162.56" width="0.1524" layer="91" grouprefs="G_I²C"/>
-<wire x1="-154.94" y1="162.56" x2="-167.64" y2="162.56" width="0.1524" layer="91" grouprefs="G_I²C"/>
-<junction x="-154.94" y="162.56" grouprefs="G_I²C"/>
+<wire x1="-154.94" y1="157.48" x2="-160.02" y2="157.48" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<wire x1="-160.02" y1="157.48" x2="-172.72" y2="157.48" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<junction x="-160.02" y="157.48" grouprefs="G_I²C"/>
 <pinref part="BME680" gate="A" pin="4"/>
-<wire x1="-185.42" y1="154.94" x2="-195.58" y2="154.94" width="0.1524" layer="91" grouprefs="G_I²C"/>
-<junction x="-185.42" y="154.94" grouprefs="G_I²C"/>
-<label x="-238.76" y="154.94" size="1.778" layer="95" grouprefs="G_I²C"/>
-<wire x1="-195.58" y1="154.94" x2="-238.76" y2="154.94" width="0.1524" layer="91" grouprefs="G_I²C"/>
-<junction x="-195.58" y="154.94" grouprefs="G_I²C"/>
+<wire x1="-185.42" y1="149.86" x2="-195.58" y2="149.86" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<junction x="-185.42" y="149.86" grouprefs="G_I²C"/>
+<label x="-238.76" y="149.86" size="1.778" layer="95" grouprefs="G_I²C"/>
+<wire x1="-195.58" y1="149.86" x2="-238.76" y2="149.86" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<junction x="-195.58" y="149.86" grouprefs="G_I²C"/>
 <pinref part="PCF8591_I²C" gate="A" pin="3"/>
-<wire x1="-127" y1="157.48" x2="-114.3" y2="157.48" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<wire x1="-144.78" y1="152.4" x2="-111.76" y2="152.4" width="0.1524" layer="91" grouprefs="G_I²C"/>
 <pinref part="BME680_GROVE" gate="G$1" pin="1"/>
-<wire x1="-170.942" y1="149.86" x2="-185.42" y2="149.86" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<wire x1="-170.942" y1="144.78" x2="-185.42" y2="144.78" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<label x="-139.7" y="152.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -18631,28 +18636,27 @@ bei Buchsenleisten</text>
 </net>
 <net name="I²C_V" class="1">
 <segment>
-<wire x1="-160.02" y1="170.18" x2="-200.66" y2="170.18" width="0.1524" layer="91" grouprefs="G_I²C"/>
-<wire x1="-160.02" y1="157.48" x2="-160.02" y2="170.18" width="0.1524" layer="91" grouprefs="G_I²C"/>
-<wire x1="-200.66" y1="170.18" x2="-200.66" y2="162.56" width="0.1524" layer="91" grouprefs="G_I²C"/>
-<wire x1="-129.54" y1="167.64" x2="-129.54" y2="162.56" width="0.1524" layer="91" grouprefs="G_I²C"/>
-<wire x1="-144.78" y1="167.64" x2="-129.54" y2="167.64" width="0.1524" layer="91" grouprefs="G_I²C"/>
-<wire x1="-144.78" y1="157.48" x2="-144.78" y2="167.64" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<wire x1="-165.1" y1="165.1" x2="-200.66" y2="165.1" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<wire x1="-165.1" y1="152.4" x2="-165.1" y2="165.1" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<wire x1="-200.66" y1="165.1" x2="-200.66" y2="157.48" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<wire x1="-149.86" y1="152.4" x2="-149.86" y2="157.48" width="0.1524" layer="91" grouprefs="G_I²C"/>
 <pinref part="I²C" gate="A" pin="3"/>
-<wire x1="-144.78" y1="157.48" x2="-154.94" y2="157.48" width="0.1524" layer="91" grouprefs="G_I²C"/>
-<wire x1="-154.94" y1="157.48" x2="-160.02" y2="157.48" width="0.1524" layer="91" grouprefs="G_I²C"/>
-<junction x="-154.94" y="157.48" grouprefs="G_I²C"/>
+<wire x1="-149.86" y1="152.4" x2="-160.02" y2="152.4" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<wire x1="-160.02" y1="152.4" x2="-165.1" y2="152.4" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<junction x="-160.02" y="152.4" grouprefs="G_I²C"/>
 <pinref part="BME680" gate="A" pin="1"/>
-<wire x1="-200.66" y1="162.56" x2="-195.58" y2="162.56" width="0.1524" layer="91" grouprefs="G_I²C"/>
-<wire x1="-177.8" y1="144.78" x2="-177.8" y2="162.56" width="0.1524" layer="91" grouprefs="G_I²C"/>
-<wire x1="-177.8" y1="162.56" x2="-195.58" y2="162.56" width="0.1524" layer="91" grouprefs="G_I²C"/>
-<junction x="-195.58" y="162.56" grouprefs="G_I²C"/>
+<wire x1="-200.66" y1="157.48" x2="-195.58" y2="157.48" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<wire x1="-177.8" y1="139.7" x2="-177.8" y2="157.48" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<wire x1="-177.8" y1="157.48" x2="-195.58" y2="157.48" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<junction x="-195.58" y="157.48" grouprefs="G_I²C"/>
 <pinref part="PCF8591_I²C" gate="A" pin="1"/>
-<wire x1="-129.54" y1="162.56" x2="-114.3" y2="162.56" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<wire x1="-149.86" y1="157.48" x2="-111.76" y2="157.48" width="0.1524" layer="91" grouprefs="G_I²C"/>
 <pinref part="BME680_GROVE" gate="G$1" pin="3"/>
-<wire x1="-170.942" y1="144.78" x2="-177.8" y2="144.78" width="0.1524" layer="91" grouprefs="G_I²C"/>
-<wire x1="-200.66" y1="170.18" x2="-238.76" y2="170.18" width="0.1524" layer="91" grouprefs="G_I²C"/>
-<label x="-238.506" y="170.942" size="1.778" layer="95" grouprefs="G_I²C"/>
-<junction x="-200.66" y="170.18" grouprefs="G_I²C"/>
+<wire x1="-170.942" y1="139.7" x2="-177.8" y2="139.7" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<wire x1="-200.66" y1="165.1" x2="-238.76" y2="165.1" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<label x="-238.506" y="165.862" size="1.778" layer="95" grouprefs="G_I²C"/>
+<junction x="-200.66" y="165.1" grouprefs="G_I²C"/>
+<label x="-139.7" y="157.48" size="1.778" layer="95"/>
 </segment>
 <segment>
 <label x="-38.1" y="223.52" size="1.778" layer="95" rot="R90" grouprefs="G2_SPANNUNGSVERSORGUNG"/>
@@ -18782,7 +18786,7 @@ bei Buchsenleisten</text>
 <junction x="-149.86" y="218.8464" grouprefs="G1_SPANNUNGSVERSORGUNG"/>
 <wire x1="-149.86" y1="218.8464" x2="-149.86" y2="208.6864" width="0.1524" layer="91" grouprefs="G1_SPANNUNGSVERSORGUNG"/>
 <pinref part="C_SP2" gate="G$1" pin="1"/>
-<label x="-157.48" y="208.6864" size="1.778" layer="95" grouprefs="G1_SPANNUNGSVERSORGUNG"/>
+<label x="-155.956" y="205.3844" size="1.778" layer="95" grouprefs="G1_SPANNUNGSVERSORGUNG"/>
 <wire x1="-142.24" y1="208.6864" x2="-149.86" y2="208.6864" width="0.1524" layer="91" grouprefs="G1_SPANNUNGSVERSORGUNG"/>
 <wire x1="-149.86" y1="236.6264" x2="-160.02" y2="236.6264" width="0.1524" layer="91" grouprefs="G1_SPANNUNGSVERSORGUNG"/>
 <pinref part="DC_OUT2_5V+" gate="G$1" pin="1"/>
@@ -18818,7 +18822,7 @@ bei Buchsenleisten</text>
 <wire x1="-127" y1="208.6864" x2="-127" y2="203.6064" width="0.1524" layer="91" grouprefs="G1_SPANNUNGSVERSORGUNG"/>
 <wire x1="-127" y1="203.6064" x2="-134.62" y2="203.6064" width="0.1524" layer="91" grouprefs="G1_SPANNUNGSVERSORGUNG"/>
 <junction x="-127" y="208.6864" grouprefs="G1_SPANNUNGSVERSORGUNG"/>
-<label x="-124.46" y="208.6864" size="1.778" layer="95" grouprefs="G1_SPANNUNGSVERSORGUNG"/>
+<label x="-126.238" y="205.6384" size="1.778" layer="95" grouprefs="G1_SPANNUNGSVERSORGUNG"/>
 <pinref part="JP_WITTYPI_ON_OFF" gate="A" pin="4"/>
 <wire x1="-134.62" y1="195.9864" x2="-134.62" y2="203.6064" width="0.1524" layer="91" grouprefs="G1_SPANNUNGSVERSORGUNG"/>
 <wire x1="-134.62" y1="195.9864" x2="-134.62" y2="188.3664" width="0.1524" layer="91" grouprefs="G1_SPANNUNGSVERSORGUNG"/>
@@ -18915,31 +18919,32 @@ bei Buchsenleisten</text>
 <wire x1="-7.62" y1="147.32" x2="-68.58" y2="147.32" width="0.1524" layer="91" grouprefs="G_DS18B20"/>
 </segment>
 <segment>
-<wire x1="-165.1" y1="160.02" x2="-165.1" y2="154.94" width="0.1524" layer="91" grouprefs="G_I²C"/>
-<wire x1="-180.34" y1="160.02" x2="-165.1" y2="160.02" width="0.1524" layer="91" grouprefs="G_I²C"/>
-<wire x1="-180.34" y1="160.02" x2="-180.34" y2="142.24" width="0.1524" layer="91" grouprefs="G_I²C"/>
-<wire x1="-124.46" y1="170.18" x2="-124.46" y2="160.02" width="0.1524" layer="91" grouprefs="G_I²C"/>
-<wire x1="-147.32" y1="170.18" x2="-124.46" y2="170.18" width="0.1524" layer="91" grouprefs="G_I²C"/>
-<wire x1="-147.32" y1="170.18" x2="-147.32" y2="154.94" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<wire x1="-170.18" y1="154.94" x2="-170.18" y2="149.86" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<wire x1="-180.34" y1="154.94" x2="-170.18" y2="154.94" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<wire x1="-180.34" y1="154.94" x2="-180.34" y2="137.16" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<wire x1="-142.24" y1="160.02" x2="-142.24" y2="154.94" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<wire x1="-152.4" y1="160.02" x2="-142.24" y2="160.02" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<wire x1="-152.4" y1="160.02" x2="-152.4" y2="149.86" width="0.1524" layer="91" grouprefs="G_I²C"/>
 <pinref part="I²C" gate="A" pin="4"/>
-<wire x1="-147.32" y1="154.94" x2="-154.94" y2="154.94" width="0.1524" layer="91" grouprefs="G_I²C"/>
-<wire x1="-154.94" y1="154.94" x2="-165.1" y2="154.94" width="0.1524" layer="91" grouprefs="G_I²C"/>
-<junction x="-154.94" y="154.94" grouprefs="G_I²C"/>
+<wire x1="-152.4" y1="149.86" x2="-160.02" y2="149.86" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<wire x1="-160.02" y1="149.86" x2="-170.18" y2="149.86" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<junction x="-160.02" y="149.86" grouprefs="G_I²C"/>
 <pinref part="BME680" gate="A" pin="2"/>
-<wire x1="-180.34" y1="160.02" x2="-195.58" y2="160.02" width="0.1524" layer="91" grouprefs="G_I²C"/>
-<junction x="-180.34" y="160.02" grouprefs="G_I²C"/>
-<wire x1="-213.36" y1="160.02" x2="-213.36" y2="149.86" width="0.1524" layer="91" grouprefs="G_I²C"/>
-<wire x1="-213.36" y1="160.02" x2="-238.76" y2="160.02" width="0.1524" layer="91" grouprefs="G_I²C"/>
-<label x="-238.76" y="160.02" size="1.778" layer="95" grouprefs="G_I²C"/>
-<wire x1="-213.36" y1="160.02" x2="-195.58" y2="160.02" width="0.1524" layer="91" grouprefs="G_I²C"/>
-<junction x="-213.36" y="160.02" grouprefs="G_I²C"/>
-<junction x="-195.58" y="160.02" grouprefs="G_I²C"/>
+<wire x1="-180.34" y1="154.94" x2="-195.58" y2="154.94" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<junction x="-180.34" y="154.94" grouprefs="G_I²C"/>
+<wire x1="-213.36" y1="154.94" x2="-213.36" y2="144.78" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<wire x1="-213.36" y1="154.94" x2="-238.76" y2="154.94" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<label x="-238.76" y="154.94" size="1.778" layer="95" grouprefs="G_I²C"/>
+<wire x1="-213.36" y1="154.94" x2="-195.58" y2="154.94" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<junction x="-213.36" y="154.94" grouprefs="G_I²C"/>
+<junction x="-195.58" y="154.94" grouprefs="G_I²C"/>
 <pinref part="PCF8591_I²C" gate="A" pin="2"/>
-<wire x1="-124.46" y1="160.02" x2="-114.3" y2="160.02" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<wire x1="-142.24" y1="154.94" x2="-111.76" y2="154.94" width="0.1524" layer="91" grouprefs="G_I²C"/>
 <pinref part="BME680_GROVE" gate="G$1" pin="4"/>
-<wire x1="-170.942" y1="142.24" x2="-180.34" y2="142.24" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<wire x1="-170.942" y1="137.16" x2="-180.34" y2="137.16" width="0.1524" layer="91" grouprefs="G_I²C"/>
 <pinref part="#76_77" gate="G$1" pin="2"/>
-<wire x1="-208.28" y1="149.86" x2="-213.36" y2="149.86" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<wire x1="-208.28" y1="144.78" x2="-213.36" y2="144.78" width="0.1524" layer="91" grouprefs="G_I²C"/>
+<label x="-139.7" y="154.94" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="LED" gate="G$1" pin="4"/>

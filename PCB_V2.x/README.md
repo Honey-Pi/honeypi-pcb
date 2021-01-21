@@ -22,7 +22,7 @@ Designed for the Raspian Zero and NOT for Raspian Pi 1 to 4
 Feature list and bill of material is still on working.  
 ## You can find instructions (only in German at the moment ) here[link](./Bienenwaage_Platine.v2.pdf)
 
-## V2.0x circuit diagram [link](./Schaltplan 2.02-05.01.2021.pdf)
+## V2.0x circuit diagram [link](./Schaltplan_2.02-21.01.2021.pdf)
 Check out this [blogpost](https://www.honey-pi.de/....) for the Raspberry Zero.
 
 Status: Tested, working.  
@@ -37,7 +37,7 @@ You can upload this [gerber file](./HoneyPI_Platine_2.02_2021-01-05.zip) to [thi
 ### Pictures
 ![Board render picture](./Pictures/HoneyPI_Platine_2.02.png)
 
-Users of the board version 2.01 please use the schematic 2.01.1 [link](./OLD/Schaltplan 2.01.1-05.01.2021.pdf)
+Users of the board version 2.01 please use the schematic 2.01.1 [link](./OLD/Schaltplan_2.01.1-21.01.2021.pdf)
 
 
 

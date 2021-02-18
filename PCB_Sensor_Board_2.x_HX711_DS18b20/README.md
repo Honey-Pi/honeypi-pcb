@@ -20,7 +20,7 @@ This version is currently being procured and tested.
 Please do not order these without having contacted us before.  
 Thank you for your understanding!   
 
-You can upload this [gerber file](./Sensor_Board_2.03_HX711_DS18b2_2021-01-11.zip) to [this manufactory service](https://jlcpcb.com/quote) to get few PCBs. 10 pieces of this board cost about 7 € with delivery.  
+You can upload this [gerber file](./Sensor_Board_2.03_HX711_DS18b2_2021-02-18.zip) to [this manufactory service](https://jlcpcb.com/quote) to get few PCBs. 10 pieces of this board cost about 7 € with delivery.  
 
 ### Pictures
 ![Board render picture](./Pictures/Sensor_Board_2.03_HX711_DS18b2.png)  

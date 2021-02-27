@@ -9,6 +9,7 @@ Feature list and bill of material is still on working.
 ## V2.0 circuit diagram [link](./HoneyPI_Platine_TimerBoard_2.0.pdf)
 Check out this [blogpost](https://www.honey-pi.de/)
 
+
 Status: 
 
   Hardware: Release candidate.

@@ -27,5 +27,6 @@ fi
 
 echo '>>> Install wvdial template for SIM800'
 cp overlays/etc/wvdial.conf.tmpl /etc/wvdial.conf.tmpl
+cp overlays/etc/wvdial.conf.tmpl /etc/wvdial.conf
 chmod 755 /etc/wvdial.conf
 cp overlays/etc/ppp/peers/wvdial /etc/ppp/peers/wvdial

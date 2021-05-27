@@ -34,3 +34,5 @@ echo '4 - Added /etc/ppp/peers/wvdial file for SIM800L Modem'
 cp overlays/etc/ppp/peers/wvdial /etc/ppp/peers/wvdial
 echo 'If you have another provider and your APN is not pinternet.interkom.de you need to change the overlays/etc/wvdial.conf.tmpl file and change the APN there. After changing this file you need to run this installer again. In case your APN is pinternet.interkom.de then eveything is fine and you can run this installer without changing anything. Also you might need to disable the PIN on your sim card first.'
 echo '5 - Your turn: Please go to the webinterface, select the modem as your internet mode and reboot your raspberry pi.'
+echo '6 - For your info: If you have the modem connected it should show as ttyS0'
+ls -la /dev/tty*

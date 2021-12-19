@@ -1,8 +1,8 @@
-# Installer for headless Chrome on Raspberry Pi Lite
+# Installer for headless Chrome on Raspberry Pi OS Lite
 
 ## Software Prerequisites
 
-* HoneyPi Firmware [as provided by HoneyPi](https://github.com/Honey-Pi/HoneyPi) or a [Raspberry OS **Lite**](https://www.raspberrypi.com/software/operating-systems/) Image
+* HoneyPi Firmware [as provided by HoneyPi](https://github.com/Honey-Pi/HoneyPi) or a [Raspberry Pi OS **Lite**](https://www.raspberrypi.com/software/operating-systems/) Image
 
 ## Hardware Prerequisites
 

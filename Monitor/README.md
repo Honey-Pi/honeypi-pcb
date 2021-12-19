@@ -1,4 +1,4 @@
-# Installer for headless Chrome on Raspberry Pi OS Lite
+# Installer for "Kiosk-mode" Chrome on Raspberry Pi OS Lite
 
 ## Software Prerequisites
 

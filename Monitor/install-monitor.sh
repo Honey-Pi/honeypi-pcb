@@ -42,7 +42,7 @@ else
 fi
 
 echo '7 - Disabled hdmi_safe=1'
-sed -i '/hdmi_safe=1/c\#nohdmi_safe=1' /boot/config.txt;
+sed -i '/hdmi_safe=1/c\#hdmi_safe=1' /boot/config.txt
 
 echo '8 - Added chrome to autostart'
 cp overlays/autostart /etc/xdg/openbox/autostart

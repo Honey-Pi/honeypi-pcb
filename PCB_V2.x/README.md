@@ -20,7 +20,7 @@ Pitch lenght 2.54 mm for terminal blocks as an alternative.
 
 Designed for the Raspian Zero and NOT for Raspian Pi 1 to 4  
 Feature list and bill of material is still on working.  
-## You can find some helpfull instructions (only in German at the moment ) [here](./Bienenwaage_Platine_2.x_D2.05.pdf)
+## You can find some helpfull instructions (only in German at the moment ) [here](./Bienenwaage_Platine_2.x_D2.06.pdf)
 
 ## V2.0x circuit diagram [link](./Schaltplan_2.02-21.01.2021.pdf)
 Check out this [blogpost](https://honey-pi.de/neue-platine-v2-fuer-raspberry-zero/) for the Raspberry Zero.

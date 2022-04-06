@@ -787,25 +787,25 @@ Types:&lt;p&gt;
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="Signal" width="0.1524" drill="0">
-<clearance class="0" value="0.3048"/>
+<class number="0" name="Signal" width="0.127" drill="0">
+<clearance class="0" value="0.254"/>
 </class>
-<class number="1" name="Supply3v3" width="0.25" drill="0">
-<clearance class="1" value="0.3048"/>
+<class number="1" name="Supply3v3" width="0.254" drill="0">
+<clearance class="1" value="0.254"/>
 </class>
-<class number="2" name="Supply5v" width="0.5" drill="0">
-<clearance class="2" value="0.3048"/>
+<class number="2" name="Supply5v" width="0.381" drill="0">
+<clearance class="2" value="0.254"/>
 </class>
 </classes>
 <groups>
 <schematic_group name="I²C-G1"/>
 </groups>
 <parts>
-<part name="BME680/280" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
+<part name="BME680" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="HDC1080" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="J1" library="Connector" deviceset="TWIG-4P-2.0" device="-2.0"/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="DINA4_L" device=""/>
-<part name="SHT31/ATH10" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
+<part name="SHT31/ATH10/BME280" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="X1" library="con-wago" library_urn="urn:adsk.eagle:library:197" deviceset="233-504" device="" package3d_urn="urn:adsk.eagle:package:8079518/1"/>
 </parts>
 <sheets>
@@ -821,13 +821,13 @@ Types:&lt;p&gt;
 4: GND</text>
 </plain>
 <instances>
-<instance part="BME680/280" gate="A" x="-180.34" y="111.76" smashed="yes" grouprefs="I²C-G1">
-<attribute name="NAME" x="-186.69" y="120.015" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-186.69" y="104.14" size="1.778" layer="96"/>
+<instance part="BME680" gate="A" x="-170.18" y="111.76" smashed="yes" grouprefs="I²C-G1">
+<attribute name="NAME" x="-176.53" y="120.015" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-176.53" y="104.14" size="1.778" layer="96"/>
 </instance>
-<instance part="HDC1080" gate="A" x="-180.34" y="76.2" smashed="yes" grouprefs="I²C-G1">
-<attribute name="NAME" x="-186.69" y="84.455" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-186.69" y="68.58" size="1.778" layer="96"/>
+<instance part="HDC1080" gate="A" x="-170.18" y="76.2" smashed="yes" grouprefs="I²C-G1">
+<attribute name="NAME" x="-176.53" y="84.455" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-176.53" y="68.58" size="1.778" layer="96"/>
 </instance>
 <instance part="J1" gate="G$1" x="-226.06" y="96.52" smashed="yes" grouprefs="I²C-G1">
 <attribute name="NAME" x="-227.33" y="101.6" size="1.27" layer="95"/>
@@ -839,9 +839,9 @@ Types:&lt;p&gt;
 <attribute name="SHEET" x="-101.6" y="11.43" size="2.54" layer="94"/>
 <attribute name="DRAWING_NAME" x="-175.26" y="29.21" size="2.54" layer="94"/>
 </instance>
-<instance part="SHT31/ATH10" gate="A" x="-180.34" y="93.98" smashed="yes" grouprefs="I²C-G1">
-<attribute name="NAME" x="-186.69" y="102.235" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-186.69" y="86.36" size="1.778" layer="96"/>
+<instance part="SHT31/ATH10/BME280" gate="A" x="-170.18" y="93.98" smashed="yes" grouprefs="I²C-G1">
+<attribute name="NAME" x="-176.53" y="102.235" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-176.53" y="86.36" size="1.778" layer="96"/>
 </instance>
 <instance part="X1" gate="G$1" x="-177.8" y="129.54" smashed="yes" grouprefs="I²C-G1">
 <attribute name="NAME" x="-182.88" y="134.62" size="1.778" layer="95"/>
@@ -853,31 +853,33 @@ Types:&lt;p&gt;
 <nets>
 <net name="BME_SCL/SCK" class="0">
 <segment>
-<label x="-226.06" y="111.76" size="1.778" layer="95" grouprefs="I²C-G1"/>
-<pinref part="BME680/280" gate="A" pin="3"/>
+<label x="-193.04" y="111.76" size="1.778" layer="95" grouprefs="I²C-G1"/>
+<pinref part="BME680" gate="A" pin="3"/>
 <wire x1="-231.14" y1="111.76" x2="-203.2" y2="111.76" width="0.1524" layer="91" grouprefs="I²C-G1"/>
-<wire x1="-203.2" y1="111.76" x2="-182.88" y2="111.76" width="0.1524" layer="91" grouprefs="I²C-G1"/>
+<wire x1="-203.2" y1="111.76" x2="-172.72" y2="111.76" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <pinref part="J1" gate="G$1" pin="1"/>
 <wire x1="-231.14" y1="111.76" x2="-231.14" y2="100.33" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <wire x1="-231.14" y1="100.33" x2="-229.87" y2="100.33" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <pinref part="HDC1080" gate="A" pin="4"/>
-<wire x1="-182.88" y1="73.66" x2="-203.2" y2="73.66" width="0.1524" layer="91" grouprefs="I²C-G1"/>
+<wire x1="-172.72" y1="73.66" x2="-203.2" y2="73.66" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <wire x1="-203.2" y1="73.66" x2="-203.2" y2="93.98" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <junction x="-203.2" y="111.76" grouprefs="I²C-G1"/>
-<pinref part="SHT31/ATH10" gate="A" pin="3"/>
+<pinref part="SHT31/ATH10/BME280" gate="A" pin="3"/>
 <wire x1="-203.2" y1="93.98" x2="-203.2" y2="111.76" width="0.1524" layer="91" grouprefs="I²C-G1"/>
-<wire x1="-182.88" y1="93.98" x2="-203.2" y2="93.98" width="0.1524" layer="91" grouprefs="I²C-G1"/>
+<wire x1="-172.72" y1="93.98" x2="-203.2" y2="93.98" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <junction x="-203.2" y="93.98" grouprefs="I²C-G1"/>
 <pinref part="X1" gate="G$1" pin="B-3"/>
 <wire x1="-203.2" y1="111.76" x2="-203.2" y2="127" width="0.1524" layer="91"/>
 <wire x1="-203.2" y1="127" x2="-185.42" y2="127" width="0.1524" layer="91"/>
+<label x="-193.04" y="73.66" size="1.778" layer="95"/>
+<label x="-193.04" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BME_SDI/SDA" class="0">
 <segment>
-<label x="-226.06" y="109.22" size="1.778" layer="95" grouprefs="I²C-G1"/>
-<pinref part="BME680/280" gate="A" pin="4"/>
-<wire x1="-182.88" y1="109.22" x2="-200.66" y2="109.22" width="0.1524" layer="91" grouprefs="I²C-G1"/>
+<label x="-193.04" y="109.22" size="1.778" layer="95" grouprefs="I²C-G1"/>
+<pinref part="BME680" gate="A" pin="4"/>
+<wire x1="-172.72" y1="109.22" x2="-200.66" y2="109.22" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <wire x1="-200.66" y1="109.22" x2="-233.68" y2="109.22" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <pinref part="J1" gate="G$1" pin="2"/>
 <wire x1="-233.68" y1="109.22" x2="-233.68" y2="97.79" width="0.1524" layer="91" grouprefs="I²C-G1"/>
@@ -886,20 +888,22 @@ Types:&lt;p&gt;
 <junction x="-200.66" y="109.22" grouprefs="I²C-G1"/>
 <pinref part="HDC1080" gate="A" pin="3"/>
 <wire x1="-200.66" y1="91.44" x2="-200.66" y2="76.2" width="0.1524" layer="91" grouprefs="I²C-G1"/>
-<wire x1="-200.66" y1="76.2" x2="-182.88" y2="76.2" width="0.1524" layer="91" grouprefs="I²C-G1"/>
-<pinref part="SHT31/ATH10" gate="A" pin="4"/>
-<wire x1="-182.88" y1="91.44" x2="-200.66" y2="91.44" width="0.1524" layer="91" grouprefs="I²C-G1"/>
+<wire x1="-200.66" y1="76.2" x2="-172.72" y2="76.2" width="0.1524" layer="91" grouprefs="I²C-G1"/>
+<pinref part="SHT31/ATH10/BME280" gate="A" pin="4"/>
+<wire x1="-172.72" y1="91.44" x2="-200.66" y2="91.44" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <junction x="-200.66" y="91.44" grouprefs="I²C-G1"/>
 <pinref part="X1" gate="G$1" pin="B-4"/>
 <wire x1="-200.66" y1="109.22" x2="-200.66" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="-200.66" y1="124.46" x2="-185.42" y2="124.46" width="0.1524" layer="91"/>
+<label x="-193.04" y="76.2" size="1.778" layer="95"/>
+<label x="-193.04" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="2">
 <segment>
-<label x="-226.06" y="114.3" size="1.778" layer="95" grouprefs="I²C-G1"/>
-<wire x1="-182.88" y1="114.3" x2="-195.58" y2="114.3" width="0.1524" layer="91" grouprefs="I²C-G1"/>
-<pinref part="BME680/280" gate="A" pin="2"/>
+<label x="-193.04" y="114.3" size="1.778" layer="95" grouprefs="I²C-G1"/>
+<wire x1="-172.72" y1="114.3" x2="-195.58" y2="114.3" width="0.1524" layer="91" grouprefs="I²C-G1"/>
+<pinref part="BME680" gate="A" pin="2"/>
 <wire x1="-195.58" y1="114.3" x2="-238.76" y2="114.3" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <wire x1="-195.58" y1="114.3" x2="-195.58" y2="96.52" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <junction x="-195.58" y="114.3" grouprefs="I²C-G1"/>
@@ -908,9 +912,9 @@ Types:&lt;p&gt;
 <pinref part="J1" gate="G$1" pin="4"/>
 <wire x1="-238.76" y1="92.71" x2="-229.87" y2="92.71" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <pinref part="HDC1080" gate="A" pin="1"/>
-<wire x1="-182.88" y1="81.28" x2="-195.58" y2="81.28" width="0.1524" layer="91" grouprefs="I²C-G1"/>
-<pinref part="SHT31/ATH10" gate="A" pin="2"/>
-<wire x1="-182.88" y1="96.52" x2="-195.58" y2="96.52" width="0.1524" layer="91" grouprefs="I²C-G1"/>
+<wire x1="-172.72" y1="81.28" x2="-195.58" y2="81.28" width="0.1524" layer="91" grouprefs="I²C-G1"/>
+<pinref part="SHT31/ATH10/BME280" gate="A" pin="2"/>
+<wire x1="-172.72" y1="96.52" x2="-195.58" y2="96.52" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <junction x="-195.58" y="96.52" grouprefs="I²C-G1"/>
 <label x="-193.04" y="96.52" size="1.778" layer="95" grouprefs="I²C-G1"/>
 <label x="-193.04" y="81.28" size="1.778" layer="95" grouprefs="I²C-G1"/>
@@ -921,10 +925,10 @@ Types:&lt;p&gt;
 </net>
 <net name="3V3" class="1">
 <segment>
-<label x="-226.06" y="116.84" size="1.778" layer="95" grouprefs="I²C-G1"/>
-<pinref part="BME680/280" gate="A" pin="1"/>
+<label x="-193.04" y="116.84" size="1.778" layer="95" grouprefs="I²C-G1"/>
+<pinref part="BME680" gate="A" pin="1"/>
 <wire x1="-236.22" y1="116.84" x2="-198.12" y2="116.84" width="0.1524" layer="91" grouprefs="I²C-G1"/>
-<wire x1="-198.12" y1="116.84" x2="-182.88" y2="116.84" width="0.1524" layer="91" grouprefs="I²C-G1"/>
+<wire x1="-198.12" y1="116.84" x2="-172.72" y2="116.84" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <wire x1="-198.12" y1="116.84" x2="-198.12" y2="99.06" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <junction x="-198.12" y="116.84" grouprefs="I²C-G1"/>
 <pinref part="J1" gate="G$1" pin="3"/>
@@ -932,9 +936,9 @@ Types:&lt;p&gt;
 <wire x1="-236.22" y1="116.84" x2="-236.22" y2="95.25" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <wire x1="-236.22" y1="95.25" x2="-229.87" y2="95.25" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <pinref part="HDC1080" gate="A" pin="2"/>
-<wire x1="-182.88" y1="78.74" x2="-198.12" y2="78.74" width="0.1524" layer="91" grouprefs="I²C-G1"/>
-<pinref part="SHT31/ATH10" gate="A" pin="1"/>
-<wire x1="-182.88" y1="99.06" x2="-198.12" y2="99.06" width="0.1524" layer="91" grouprefs="I²C-G1"/>
+<wire x1="-172.72" y1="78.74" x2="-198.12" y2="78.74" width="0.1524" layer="91" grouprefs="I²C-G1"/>
+<pinref part="SHT31/ATH10/BME280" gate="A" pin="1"/>
+<wire x1="-172.72" y1="99.06" x2="-198.12" y2="99.06" width="0.1524" layer="91" grouprefs="I²C-G1"/>
 <junction x="-198.12" y="99.06" grouprefs="I²C-G1"/>
 <label x="-193.04" y="99.06" size="1.778" layer="95" grouprefs="I²C-G1"/>
 <label x="-193.04" y="78.74" size="1.778" layer="95" grouprefs="I²C-G1"/>
@@ -947,7 +951,12 @@ Types:&lt;p&gt;
 </sheet>
 </sheets>
 <errors>
+<approved hash="113,1,-179.326,114.526,BME680/280,,,,,"/>
+<approved hash="113,1,-181.093,78.9661,HDC1080,,,,,"/>
+<approved hash="113,1,-228.156,97.1296,J1,,,,,"/>
 <approved hash="113,1,-218.544,100.226,FRAME1,,,,,"/>
+<approved hash="113,1,-178.505,96.7461,SHT31/ATH10,,,,,"/>
+<approved hash="113,1,-182.902,129.88,X1,,,,,"/>
 </errors>
 </schematic>
 </drawing>

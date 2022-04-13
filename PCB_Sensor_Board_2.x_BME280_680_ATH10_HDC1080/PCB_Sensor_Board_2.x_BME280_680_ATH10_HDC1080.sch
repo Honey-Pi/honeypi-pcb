@@ -788,13 +788,13 @@ Types:&lt;p&gt;
 </variantdefs>
 <classes>
 <class number="0" name="Signal" width="0.127" drill="0">
-<clearance class="0" value="0.254"/>
+<clearance class="0" value="0.381"/>
 </class>
 <class number="1" name="Supply3v3" width="0.254" drill="0">
-<clearance class="1" value="0.254"/>
+<clearance class="1" value="0.381"/>
 </class>
 <class number="2" name="Supply5v" width="0.381" drill="0">
-<clearance class="2" value="0.254"/>
+<clearance class="2" value="0.381"/>
 </class>
 </classes>
 <groups>

@@ -9,7 +9,7 @@ Designed to be mounted in a separate housing that allows humidity to be measured
 
 Feature list and bill of material is still on working.   
 
-## V2.0 BETA circuit diagram [link](./PCB_Sensor_Board_2.x_BME280_680_ATH10_HDC1080.pdf)
+## V2.0x circuit diagram [link](./PCB_Sensor_Board_2.x_BME280_680_ATH10_HDC1080.pdf)
 Check out this [blogpost](https://www.honey-pi.de/)
 
 Status: Under development.  

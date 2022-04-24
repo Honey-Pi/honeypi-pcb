@@ -23,6 +23,6 @@ Please contact me if you are interested.
 Net yet: You can upload this [gerber file](./HoneyPI_Platine_3.00.zip) to [this manufactory service](https://jlcpcb.com/quote) to get few PCBs. 5 pieces of this board cost me about 7 € with delivery. 
 
 ### Pictures
-![Board render picture](./Platine 3.0_01.jpg)
-![Board render picture](./Platine 3.0_02.jpg)
+![Board render picture](./Pictures/Platine 3.0_01.jpg)
+![Board render picture](./Pictures/Platine 3.0_02.jpg)
 ![Board render picture](./Pictures/HoneyPI_Platine_3.00.png)

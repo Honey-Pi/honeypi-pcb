@@ -22,20 +22,16 @@ Designed for the Raspian Zero and NOT for Raspian Pi 1 to 4
 Feature list and bill of material is still on working.  
 ## You can find some helpfull instructions (only in German at the moment ) [here](./Bienenwaage_Platine_2.x_D2.07.pdf)
 
-## V2.0x circuit diagram [link](./Schaltplan_2.02-21.01.2021.pdf)
+## V2.0x circuit diagram [link](./Schaltplan_2.021-13-8-2022.pdf)
 Check out this [blogpost](https://honey-pi.de/neue-platine-v2-fuer-raspberry-zero/) for the Raspberry Zero.
 
 Status: Tested, working.  
 This version has been tested and found to be good and released.
 
-Nevertheless I would like to support the first setups to enhance the instructions.
-
-Please contact me if you are interested.  
-
-You can upload this [gerber file](./HoneyPI_Platine_2.02_2021-01-05.zip) to [this manufactory service](https://jlcpcb.com/quote) to get few PCBs. 5 pieces of this board cost me about 7 € with delivery. 
+You can upload this [gerber file](./HoneyPI_Platine_2.021_2022-08-13.zip) to [this manufactory service](https://jlcpcb.com/quote) to get few PCBs. 5 pieces of this board cost me about 7 € with delivery. 
 
 ### Pictures
-![Board render picture](./Pictures/HoneyPI_Platine_2.02.png)
+![Board render picture](./Pictures/HoneyPI_Platine_2.021.png)
 
 Users of the board version 2.01: Please use the schematic 2.01.1 [link](./OLD/Schaltplan_2.01.1-21.01.2021.pdf)
 

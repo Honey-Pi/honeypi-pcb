@@ -16,11 +16,9 @@ Feature list and bill of material is still on working.
 
 ## Circuit diagram [link](./HoneyPI_Platine_3.00_Schaltplan.pdf)
 ## Layout [link](./HoneyPI_Platine_3.00_layout.pdf)
+Status: Tested.  
 
-Status: Testing.  
-Please contact me if you are interested.  
-
-Net yet: You can upload this [gerber file](./HoneyPI_Platine_3.00.zip) to [this manufactory service](https://jlcpcb.com/quote) to get few PCBs. 5 pieces of this board cost me about 7 € with delivery. 
+You can upload this [gerber file](./HoneyPI_Platine_3.00_2022-08-15.zip) to [this manufactory service](https://jlcpcb.com/quote) to get few PCBs. 5 pieces of this board cost me about 7 € with delivery. 
 
 ### Pictures
 ![Board render picture](./Pictures/Platine_3.0_01.jpg)

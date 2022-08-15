@@ -2,6 +2,7 @@
 
 Printed circuit boards (PCB) for the Raspberry Pi to connect various sensors to avoid the use of jumper cables and flying resistors :-).
 
+Three variants are available (0.x, 2.x, 3.x):
 ## HoneyPi-PCB V0.1 [link](./PCB_V0.1) no further development or maintenance.
 
 ## HoneyPi-PCB V2.x [link](./PCB_V2.x) designed for Raspberry Zero, Zero 2. Read the manual first for Raspberry 3 and 4.  

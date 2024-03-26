@@ -6,7 +6,8 @@ Three variants are available (0.x, 2.x, 3.x):
 ## HoneyPi-PCB V0.1 [link](./PCB_V0.1) no further development or maintenance.
 
 ## HoneyPi-PCB V2.x [link](./PCB_V2.x) designed for Raspberry Zero, Zero 2. Read the manual first for Raspberry 3 and 4.  
-## HoneyPi-PCB V3.x [link](./PCB_V3.x) designed for Raspberry 3, Zero 4 and the Zeros.
+## HoneyPi-PCB V3.x [link](./PCB_V3.x) designed for Raspberry 3, Raspberry 4 and the Zeros.
+## Rasperry 5 is not yet supported.
 --> HoneyPi-PCB V2.x and V3.x have a different range of functions.  
  
 ## Sensor extension board HX711 & DS18b20 for HoneyPi-PCB V2.x [link](./PCB_Sensor_Board_2.x_HX711_DS18b20)  
